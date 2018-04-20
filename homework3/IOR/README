@@ -1,0 +1,20 @@
+First run the installation script on Vedur using
+
+bash iorvedurinstallandrun.sh
+
+After collecting results, log out of vedur and into
+Rocket, and run the script on Rocket using
+
+bash iorrocketrun.sh
+
+If you have time, consider reading the IOR
+documentation at
+
+https://github.com/LLNL/ior
+
+inside the folder doc, to try other options.
+It may be helpful to repeat running the 
+tests several times, since file systems
+are shared, so use by other people will 
+impact your measurements.
+ 

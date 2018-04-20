@@ -1,0 +1,46 @@
+#!/bin/bash
+
+#SBATCH -N 1
+#SBATCH -t 00:10:00
+#SBATCH --sockets-per-node=2
+#SBATCH --cores-per-socket=10
+#SBATCH --threads-per-core=1
+#SBATCH -p phi
+#SBATCH --exclusive
+
+export OMP_NUM_THREADS=1
+export OMP_AFFINITY=compact
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=2
+export OMP_AFFINITY=compact
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=5
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=10
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=30
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=60
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=120
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=240
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+
+export OMP_NUM_THREADS=480
+export OMP_AFFINITY=balanced
+./PeakFlopsPhi.out
+

@@ -1,0 +1,18 @@
+Example code to find peak double precision floating point performance.
+The code is taken from R. Rahman "Intel Xeon Phi Coprocessor Architecture and Tools, The Guide for Application Developers" Apress  2013. 
+http://www.apress.com/us/book/9781430259268
+
+To run the code on the Rocket cluster at the University of Tartu (http://www.hpc.ut.ee/rocket_cluster), put the code on the cluster. Then log into booster1 by using
+ssh booster1
+and then entering your password.
+
+load the Intel parallel compiler suite, then use the included scripts to compile it. 
+
+Check that nobody else is using the node booster2 by typing 
+who
+after which you can run the code directly using the example submission scripts as for settings to try.
+You may also try the example slurm submission scripts directly. as indicated at:
+
+More information on the Xeon Phi accelerator is at:
+http://www.hpc.ut.ee/user_guides/xeonphi
+

@@ -1,0 +1,10 @@
+The example program here shows how to compile and run helloworld
+on Rocket. Once you have the files and have loaded the OpenMPI
+module or setup OpenMPI with paths correctly set, type ``make''
+on the command line, then submit the batch script using 
+sbatch Rocketsubscript
+
+More information on submitting parallel jobs on Rocket is at:
+http://www.hpc.ut.ee/user_guides/SLURM#2.4.1
+
+Consider also trying out the Intel MPI library.
