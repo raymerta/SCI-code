@@ -6,5 +6,4 @@
 module purge
 module load intel_parallel_studio_xe_2015
 
-make -B all
-make run_dgemm_example
+icc -mkl dgemm_example.c
