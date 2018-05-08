@@ -12,6 +12,7 @@
 # =============================================================
 
 CC := icc
+SRCDIR := src
 BUILDDIR := release
 LIBFLAGS := -mkl -static-intel
 
