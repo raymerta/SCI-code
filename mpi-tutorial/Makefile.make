@@ -20,7 +20,7 @@ all: $(BUILDDIR)/dgemm_example
 $(BUILDDIR)/%: $(BUILDDIR)/%.o
 	$(CC) $< $(LIBFLAGS) -o $@
 
-$(BUILDDIR)/%.o: %.c
+$(BUILDDIR)/%.o: $(SRCDIR)/%.c
 	@mkdir -p $(BUILDDIR)
 	$(CC) -c $< -o $@
 
