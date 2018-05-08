@@ -12,7 +12,6 @@
 # =============================================================
 
 CC := icc
-SRCDIR := src
 BUILDDIR := release
 LIBFLAGS := -mkl -static-intel
 
@@ -21,7 +20,7 @@ all: $(BUILDDIR)/dgemm_example
 $(BUILDDIR)/%: $(BUILDDIR)/%.o
 	$(CC) $< $(LIBFLAGS) -o $@
 
-$(BUILDDIR)/%.o: $(SRCDIR)/%.c
+$(BUILDDIR)/%.o: %.c
 	@mkdir -p $(BUILDDIR)
 	$(CC) -c $< -o $@
 
