@@ -12,9 +12,13 @@
 #The job requires 1 task per node
 #SBATCH --ntasks-per-node=1
 
+#The maximum walltime of the job is a half hour
+#SBATCH -t 00:30:00
+
 module purge
 module load openmpi-2.0.1
 
 gcc -fopenmp omp_hello.c -o omp_hello
 
 srun omp_hello -a
+sleep 30
