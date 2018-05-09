@@ -17,6 +17,10 @@
 int main (int argc, char *argv[]) 
 {
 int nthreads, tid;
+int n = atoi (argv[1]);
+
+/* setup number of threads */
+omp_set_num_threads(n);
 
 /* Fork a team of threads giving them their own copies of variables */
 #pragma omp parallel private(nthreads, tid)
