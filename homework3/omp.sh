@@ -13,7 +13,7 @@
 #SBATCH --ntasks-per-node=1
 
 #The maximum walltime of the job is a half hour
-#SBATCH -t 00:30:00
+#SBATCH -t 00:10:00
 
 module purge
 module load openmpi-2.0.1
