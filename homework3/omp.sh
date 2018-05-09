@@ -1,18 +1,9 @@
 #!/bin/bash
 
-#The job should run on the testing partition
-#SBATCH -p testing
-
-#The name of the job is test_job
-#SBATCH -J parallel_uname
-
-#The job requires 4 compute nodes
-#SBATCH -N 4
-
-#The job requires 1 task per node
-#SBATCH --ntasks-per-node=1
-
-#The maximum walltime of the job is a half hour
+#SBATCH -N 2
+#SBATCH --sockets-per-node=2
+#SBATCH --cores-per-socket=10
+#SBATCH --threads-per-core=1
 #SBATCH -t 00:10:00
 
 module purge
