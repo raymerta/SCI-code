@@ -1,0 +1,3438 @@
+papi-5.5.1/
+papi-5.5.1/ChangeLogP510.txt
+papi-5.5.1/ChangeLogP500.txt
+papi-5.5.1/src/
+papi-5.5.1/src/papi_internal.c
+papi-5.5.1/src/libpfm-3.y/
+papi-5.5.1/src/libpfm-3.y/docs/
+papi-5.5.1/src/libpfm-3.y/docs/Makefile
+papi-5.5.1/src/libpfm-3.y/docs/man3/
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_num_counters.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_find_event_bycode.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_version.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_itanium.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_counters.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_pmu_type.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_p6.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_force_pmu.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_find_event_bycode_next.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_num_events.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_set_options.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_westmere.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_atom.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_pmu_name.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_description.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_find_event_mask.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_hw_counter_width.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_weight.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_code.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_max_event_name_len.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_find_event.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_impl_pmcs.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_mask_name.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_pmu_is_supported.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_impl_counters.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_list_supported_pmus.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_initialize.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_amd64.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_nehalem.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_mask_description.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_and.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_core.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_powerpc.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_or.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_montecito.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_full_event_name.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_eq.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_name.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_strerror.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_find_full_event.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_set.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_code_counter.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_cycle_event.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_clr.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_isset.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_dispatch_events.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_impl_pmds.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_num_pmds.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_pmu_name_bytype.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_inst_retired.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_regmask_copy.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_num_pmcs.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/libpfm_itanium2.3
+papi-5.5.1/src/libpfm-3.y/docs/man3/pfm_get_event_mask_code.3
+papi-5.5.1/src/libpfm-3.y/lib/
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_priv_comp.h
+papi-5.5.1/src/libpfm-3.y/lib/amd64_events.h
+papi-5.5.1/src/libpfm-3.y/lib/core_events.h
+papi-5.5.1/src/libpfm-3.y/lib/ultra4plus_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_gen_ia32.c
+papi-5.5.1/src/libpfm-3.y/lib/power5+_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_power4_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_itanium.c
+papi-5.5.1/src/libpfm-3.y/lib/amd64_events_fam15h.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_amd64_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_itanium2.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_itanium_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/coreduo_events.h
+papi-5.5.1/src/libpfm-3.y/lib/intel_corei7_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_i386_p6_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/amd64_events_fam10h.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_crayx2_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_itanium2_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_intel_atom_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_os_linux_v2.c
+papi-5.5.1/src/libpfm-3.y/lib/ultra3i_events.h
+papi-5.5.1/src/libpfm-3.y/lib/niagara1_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_intel_nhm_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_cell.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_gen_mips64.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_gen_powerpc.c
+papi-5.5.1/src/libpfm-3.y/lib/intel_corei7_unc_events.h
+papi-5.5.1/src/libpfm-3.y/lib/gen_ia32_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_power5_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/i386_p6_events.h
+papi-5.5.1/src/libpfm-3.y/lib/power4_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_sparc_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_intel_atom.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_gen_ia32_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/niagara2_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_ppc970mp_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/cell_events.h
+papi-5.5.1/src/libpfm-3.y/lib/Makefile
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_cell_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_priv.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_power5+_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/gen_mips64_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_powerpc_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_gen_mips64_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_core.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_os_macos.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_priv_ia64.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_os_linux.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_sicortex_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/montecito_events.h
+papi-5.5.1/src/libpfm-3.y/lib/power6_events.h
+papi-5.5.1/src/libpfm-3.y/lib/amd64_events_k8.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_pentium4.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_gen_ia64.c
+papi-5.5.1/src/libpfm-3.y/lib/power5_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_priv_comp_ia64.h
+papi-5.5.1/src/libpfm-3.y/lib/pentium4_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_amd64.c
+papi-5.5.1/src/libpfm-3.y/lib/amd64_events_k7.h
+papi-5.5.1/src/libpfm-3.y/lib/intel_atom_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_pentium4_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_common.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_os_linux_v3.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_coreduo_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/ultra3plus_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_ppc970_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/intel_wsm_events.h
+papi-5.5.1/src/libpfm-3.y/lib/ultra3_events.h
+papi-5.5.1/src/libpfm-3.y/lib/ppc970mp_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_sicortex.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_sparc.c
+papi-5.5.1/src/libpfm-3.y/lib/ppc970_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_power6_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_intel_nhm.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_coreduo.c
+papi-5.5.1/src/libpfm-3.y/lib/itanium_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_power7_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_i386_p6.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_montecito_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/power7_events.h
+papi-5.5.1/src/libpfm-3.y/lib/powerpc_reg.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_montecito.c
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_crayx2.c
+papi-5.5.1/src/libpfm-3.y/lib/ultra12_events.h
+papi-5.5.1/src/libpfm-3.y/lib/itanium2_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_core_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/powerpc_events.h
+papi-5.5.1/src/libpfm-3.y/lib/pfmlib_power_priv.h
+papi-5.5.1/src/libpfm-3.y/lib/crayx2_events.h
+papi-5.5.1/src/libpfm-3.y/lib/intel_wsm_unc_events.h
+papi-5.5.1/src/libpfm-3.y/config.mk
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/task_attach.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/syst.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/mont_etb.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/showreset.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/task_smpl.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/mont_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/task_attach_timeout.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita2_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita2_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/task.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/multiplex.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita2_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita_btb.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/mont_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/notify_self.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/mont_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/notify_self3.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/self.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/whichpmu.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita2_btb.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/ita2_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/mont_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/notify_self_fork.c
+papi-5.5.1/src/libpfm-3.y/examples_ia64_v2.0/notify_self2.c
+papi-5.5.1/src/libpfm-3.y/python/
+papi-5.5.1/src/libpfm-3.y/python/src/
+papi-5.5.1/src/libpfm-3.y/python/src/session.py
+papi-5.5.1/src/libpfm-3.y/python/src/perfmon_int.i
+papi-5.5.1/src/libpfm-3.y/python/src/__init__.py
+papi-5.5.1/src/libpfm-3.y/python/src/pmu.py
+papi-5.5.1/src/libpfm-3.y/python/Makefile
+papi-5.5.1/src/libpfm-3.y/python/README
+papi-5.5.1/src/libpfm-3.y/python/self.py
+papi-5.5.1/src/libpfm-3.y/python/sys.py
+papi-5.5.1/src/libpfm-3.y/python/setup.py
+papi-5.5.1/src/libpfm-3.y/Makefile
+papi-5.5.1/src/libpfm-3.y/libpfms/
+papi-5.5.1/src/libpfm-3.y/libpfms/lib/
+papi-5.5.1/src/libpfm-3.y/libpfms/lib/Makefile
+papi-5.5.1/src/libpfm-3.y/libpfms/lib/libpfms.c
+papi-5.5.1/src/libpfm-3.y/libpfms/Makefile
+papi-5.5.1/src/libpfm-3.y/libpfms/syst_smp.c
+papi-5.5.1/src/libpfm-3.y/libpfms/include/
+papi-5.5.1/src/libpfm-3.y/libpfms/include/libpfms.h
+papi-5.5.1/src/libpfm-3.y/TODO
+papi-5.5.1/src/libpfm-3.y/README
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/task_attach.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/syst.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/syst_multi_np.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/showreginfo.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/syst_np.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/multiplex2.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/task_smpl.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/check_events.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/smpl_p4_pebs.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/smpl_nhm_lbr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/smpl_pebs.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/smpl_core_pebs.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/x86/smpl_amd64_ibs.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/set_notify.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/mont_etb.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/mont_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita2_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita2_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita2_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita_btb.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/mont_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/mont_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita2_btb.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/ita2_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/ia64/mont_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/task_attach_timeout.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/task_attach_timeout_np.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/task.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/multiplex.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/task_smpl_user.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/self_smpl.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/showevtinfo.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/notify_self.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/detect_pmcs.h
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/notify_self3.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/rtop.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/self.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/pfmsetup.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/whichpmu.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/self_view.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/detect_pmcs.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/self_smpl_multi.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/notify_self_fork.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/self_pipe.c
+papi-5.5.1/src/libpfm-3.y/examples_v2.x/notify_self2.c
+papi-5.5.1/src/libpfm-3.y/COPYRIGHT
+papi-5.5.1/src/libpfm-3.y/rules.mk
+papi-5.5.1/src/libpfm-3.y/include/
+papi-5.5.1/src/libpfm-3.y/include/Makefile
+papi-5.5.1/src/libpfm-3.y/include/perfmon/
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_i386.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_gen_ia32.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_x86_64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_intel_nhm.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_ia64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_itanium2.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_itanium.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_montecito.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_powerpc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_powerpc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_pebs_smpl.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_pentium4.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_mips64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_powerpc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_x86_64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_powerpc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_core.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_sparc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_crayx2.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_i386.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_amd64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_mips64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_sparc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_gen_ia64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_pebs_core_smpl.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_v2.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_cell.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_sparc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_x86_64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_i386.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_crayx2.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_crayx2.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_ia64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_intel_atom.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_i386_p6.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_compat.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp_crayx2.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_sparc.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_mips64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_comp.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_pebs_p4_smpl.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_os_ia64.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_sicortex.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_coreduo.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_dfl_smpl.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/perfmon_default_smpl.h
+papi-5.5.1/src/libpfm-3.y/include/perfmon/pfmlib_gen_mips64.h
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/task_attach.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/syst.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/showreginfo.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/multiplex2.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/task_smpl.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/check_events.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/x86/
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/x86/smpl_p4_pebs.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/x86/smpl_core_pebs.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/x86/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/x86/smpl_amd64_ibs.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/x86/smpl_core_pebs_sys.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/set_notify.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/mont_etb.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/mont_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita2_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita2_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita2_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita_btb.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/mont_dear.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/mont_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita_irr.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita2_btb.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/ita2_opcode.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/ia64/mont_rr.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/task_attach_timeout.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/Makefile
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/task.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/multiplex.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/task_smpl_user.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/showevtinfo.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/notify_self.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/detect_pmcs.h
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/notify_self3.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/rtop.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/self.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/pfmsetup.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/whichpmu.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/detect_pmcs.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/self_smpl_multi.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/notify_self_fork.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/self_pipe.c
+papi-5.5.1/src/libpfm-3.y/examples_v3.x/notify_self2.c
+papi-5.5.1/src/libpfm-3.y/ChangeLog
+papi-5.5.1/src/linux-lock.h
+papi-5.5.1/src/papi_libpfm_events.h
+papi-5.5.1/src/ftests/
+papi-5.5.1/src/ftests/eventname.F
+papi-5.5.1/src/ftests/case2.F
+papi-5.5.1/src/ftests/johnmay2.F
+papi-5.5.1/src/ftests/accum.F
+papi-5.5.1/src/ftests/tenth.F
+papi-5.5.1/src/ftests/Makefile.recipies
+papi-5.5.1/src/ftests/case1.F
+papi-5.5.1/src/ftests/clockres.F
+papi-5.5.1/src/ftests/fmatrixpapi2.F
+papi-5.5.1/src/ftests/Makefile.target.in
+papi-5.5.1/src/ftests/flops.F
+papi-5.5.1/src/ftests/Makefile
+papi-5.5.1/src/ftests/first.F
+papi-5.5.1/src/ftests/avail.F
+papi-5.5.1/src/ftests/fmultiplex2.F
+papi-5.5.1/src/ftests/nineth.F
+papi-5.5.1/src/ftests/zero.F
+papi-5.5.1/src/ftests/description.F
+papi-5.5.1/src/ftests/fmatrixlowpapi.F
+papi-5.5.1/src/ftests/zeronamed.F
+papi-5.5.1/src/ftests/strtest.F
+papi-5.5.1/src/ftests/cost.F
+papi-5.5.1/src/ftests/highlevel.F
+papi-5.5.1/src/ftests/fdmemtest.F
+papi-5.5.1/src/ftests/fmatrixpapi.F
+papi-5.5.1/src/ftests/fmultiplex1.F
+papi-5.5.1/src/ftests/second.F
+papi-5.5.1/src/libpapi.exp
+papi-5.5.1/src/papi_libpfm4_events.c
+papi-5.5.1/src/freebsd_events.csv
+papi-5.5.1/src/darwin-common.c
+papi-5.5.1/src/Rules.perfctr-pfm
+papi-5.5.1/src/utils/
+papi-5.5.1/src/utils/error_codes.c
+papi-5.5.1/src/utils/cost.c
+papi-5.5.1/src/utils/event_chooser.c
+papi-5.5.1/src/utils/version.c
+papi-5.5.1/src/utils/command_line.c
+papi-5.5.1/src/utils/decode.c
+papi-5.5.1/src/utils/cost_utils.h
+papi-5.5.1/src/utils/event_info.c
+papi-5.5.1/src/utils/Makefile
+papi-5.5.1/src/utils/avail.c
+papi-5.5.1/src/utils/native_avail.c
+papi-5.5.1/src/utils/component.c
+papi-5.5.1/src/utils/cost_utils.c
+papi-5.5.1/src/utils/hybrid_native_avail.c
+papi-5.5.1/src/utils/clockres.c
+papi-5.5.1/src/utils/multiplex_cost.c
+papi-5.5.1/src/utils/mem_info.c
+papi-5.5.1/src/darwin-context.h
+papi-5.5.1/src/Rules.pfm
+papi-5.5.1/src/linux-timer.h
+papi-5.5.1/src/mb.h
+papi-5.5.1/src/solaris-ultra.h
+papi-5.5.1/src/papi_fwrappers.c
+papi-5.5.1/src/solaris-memory.c
+papi-5.5.1/src/freebsd-context.h
+papi-5.5.1/src/darwin-memory.c
+papi-5.5.1/src/solaris-memory.h
+papi-5.5.1/src/papi_vector.h
+papi-5.5.1/src/configure
+papi-5.5.1/src/papiStdEventDefs.h
+papi-5.5.1/src/Matlab/
+papi-5.5.1/src/Matlab/flops.m
+papi-5.5.1/src/Matlab/PAPI_flops.c
+papi-5.5.1/src/Matlab/PAPI.m
+papi-5.5.1/src/Matlab/PAPIInnerProduct.m
+papi-5.5.1/src/Matlab/flops.readme
+papi-5.5.1/src/Matlab/PAPI_Matlab.readme
+papi-5.5.1/src/Matlab/FlopsMatrixVector.m
+papi-5.5.1/src/Matlab/PAPIMatrixMatrix.m
+papi-5.5.1/src/Matlab/PAPIMatrixVector.m
+papi-5.5.1/src/Matlab/FlopsInnerProduct.m
+papi-5.5.1/src/Matlab/FlopsSampler.m
+papi-5.5.1/src/Matlab/PAPI_Matlab.c
+papi-5.5.1/src/Matlab/FlopsMatrixMatrix.m
+papi-5.5.1/src/Matlab/PAPI_Matlab.vcproj
+papi-5.5.1/src/Matlab/PAPI_Matlab.dsw
+papi-5.5.1/src/Matlab/PAPI_flops.vcproj
+papi-5.5.1/src/perfctr-2.7.x/
+papi-5.5.1/src/perfctr-2.7.x/linux/
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/x86_tests.h
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/x86_tests.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/Kconfig
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/cpumask.h
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/RELEASE-NOTES
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/virtual.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/Makefile
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/x86.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/virtual.h
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/init.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/ppc64.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/ppc_tests.h
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/ppc64_tests.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/ppc64_tests.h
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/ppc.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/ppc_tests.c
+papi-5.5.1/src/perfctr-2.7.x/linux/drivers/perfctr/version.h
+papi-5.5.1/src/perfctr-2.7.x/linux/include/
+papi-5.5.1/src/perfctr-2.7.x/linux/include/linux/
+papi-5.5.1/src/perfctr-2.7.x/linux/include/linux/perfctr.h
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-x86_64/
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-x86_64/perfctr.h
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-i386/
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-i386/perfctr.h
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-ppc/
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-ppc/perfctr.h
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-ppc64/
+papi-5.5.1/src/perfctr-2.7.x/linux/include/asm-ppc64/perfctr.h
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/perfctr/
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/perfctr/low-level-api.txt
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/perfctr/low-level-ppc32.txt
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/perfctr/low-level-x86.txt
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/perfctr/virtual.txt
+papi-5.5.1/src/perfctr-2.7.x/linux/Documentation/perfctr/overview.txt
+papi-5.5.1/src/perfctr-2.7.x/patches/
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.12-rc1-mm3
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.14-rc5-mm1
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.11
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.12-rc5
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.16
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.18
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.21
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.18-rc4
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.17
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.20
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.14
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.19
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.12-rc2
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.12-rc1
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.12-rc1-mm4
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.16.21-SLES10
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.22
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.12-rc1-mm1
+papi-5.5.1/src/perfctr-2.7.x/patches/patch-kernel-2.6.14-mm1
+papi-5.5.1/src/perfctr-2.7.x/COPYING
+papi-5.5.1/src/perfctr-2.7.x/CHANGES
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/ppc.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_x86.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_ppc.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/ppc64.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/x86_cpuinfo.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/gen-event-codes.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/virtual.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/x86_cpuinfo.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_p5.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/arch.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/Makefile
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/x86.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/global.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_amd.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/ppc64.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/misc.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/x86.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/x86_cpuid.S
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_p4.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/ppc.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/libperfctr.h
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_p6.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_ppc64.c
+papi-5.5.1/src/perfctr-2.7.x/usr.lib/event_set_centaur.c
+papi-5.5.1/src/perfctr-2.7.x/Makefile
+papi-5.5.1/src/perfctr-2.7.x/examples/
+papi-5.5.1/src/perfctr-2.7.x/examples/Makefile
+papi-5.5.1/src/perfctr-2.7.x/examples/self/
+papi-5.5.1/src/perfctr-2.7.x/examples/self/arch.h
+papi-5.5.1/src/perfctr-2.7.x/examples/self/Makefile
+papi-5.5.1/src/perfctr-2.7.x/examples/self/x86.c
+papi-5.5.1/src/perfctr-2.7.x/examples/self/ppc64.c
+papi-5.5.1/src/perfctr-2.7.x/examples/self/self.c
+papi-5.5.1/src/perfctr-2.7.x/examples/self/ppc.c
+papi-5.5.1/src/perfctr-2.7.x/examples/README
+papi-5.5.1/src/perfctr-2.7.x/examples/global/
+papi-5.5.1/src/perfctr-2.7.x/examples/global/arch.h
+papi-5.5.1/src/perfctr-2.7.x/examples/global/Makefile
+papi-5.5.1/src/perfctr-2.7.x/examples/global/x86.c
+papi-5.5.1/src/perfctr-2.7.x/examples/global/global.c
+papi-5.5.1/src/perfctr-2.7.x/examples/global/ppc.c
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/signal.c
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/arch.h
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/Makefile
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/x86.c
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/ppc64.c
+papi-5.5.1/src/perfctr-2.7.x/examples/signal/ppc.c
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/ppc.h
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/ppc64.h
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/arch.h
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/Makefile
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/x86.c
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/perfex.c
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/ppc64.c
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/x86.h
+papi-5.5.1/src/perfctr-2.7.x/examples/perfex/ppc.c
+papi-5.5.1/src/perfctr-2.7.x/etc/
+papi-5.5.1/src/perfctr-2.7.x/etc/p4.c
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-1.5
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Duron-1.0
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-3.0
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4Xeon-2.4
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-1.4
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-800
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.64
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumII-266a
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4M-1.8
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-1.6
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumM-1.6
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1000
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumII-350
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-500
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.2
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumMMX-233
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/CyrixMII-233
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.3
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/K6-III-400
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumMMX-166
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-1.8
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon64-2.2
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/MPC7400-400
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Sempron-3100+
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-2.2
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon64-2.0
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/AthlonXPM-2500
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.133
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumM-1.7
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4Xeon-2.8
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.46
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-700
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumII-266b
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4Xeon-2.2
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.33
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.66
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Celeron-466
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/C3-1.2
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumM-1.3
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4Xeon-3.4
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Duron-750
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-1.7
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/AthlonXP-1800
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.75
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumMMX-150
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-1.0
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.1
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-500
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Opteron-1.4
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-3.4
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-800
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/MPC7447A-1.35
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumII-300
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumM-1.4
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-700
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-850
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-933
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-900
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-2.66
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Duron-700
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Duron-600
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon64FX-2.2
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-2.0
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PPC750-300
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Opteron-2.0
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-2.26
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-450
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Celeron-500
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.53
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium4-2.8
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Athlon-1.8
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumPro-200
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumM-1.5
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-733
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/PentiumIII-866
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Opteron-1.6
+papi-5.5.1/src/perfctr-2.7.x/etc/costs/Pentium-133
+papi-5.5.1/src/perfctr-2.7.x/etc/install.sh
+papi-5.5.1/src/perfctr-2.7.x/update-kernel
+papi-5.5.1/src/perfctr-2.7.x/TODO
+papi-5.5.1/src/perfctr-2.7.x/README
+papi-5.5.1/src/perfctr-2.7.x/OTHER
+papi-5.5.1/src/perfctr-2.7.x/perfctr.spec
+papi-5.5.1/src/perfctr-2.7.x/INSTALL
+papi-5.5.1/src/threads.h
+papi-5.5.1/src/papi_libpfm4_events.h
+papi-5.5.1/src/papi_events_table.sh
+papi-5.5.1/src/Rules.perfmon2
+papi-5.5.1/src/Makefile.in
+papi-5.5.1/src/freebsd.c
+papi-5.5.1/src/extras.c
+papi-5.5.1/src/darwin-common.h
+papi-5.5.1/src/aix-lock.h
+papi-5.5.1/src/linux-bgp-native-events.h
+papi-5.5.1/src/papi_common_strings.h
+papi-5.5.1/src/run_tests.sh
+papi-5.5.1/src/testlib/
+papi-5.5.1/src/testlib/do_loops.c
+papi-5.5.1/src/testlib/ftests_util.F
+papi-5.5.1/src/testlib/Makefile.target.in
+papi-5.5.1/src/testlib/test_utils.h
+papi-5.5.1/src/testlib/Makefile
+papi-5.5.1/src/testlib/clockcore.c
+papi-5.5.1/src/testlib/dummy.c
+papi-5.5.1/src/testlib/fpapi_test.h
+papi-5.5.1/src/testlib/papi_test.h
+papi-5.5.1/src/testlib/test_utils.c
+papi-5.5.1/src/linux-bgq-lock.h
+papi-5.5.1/src/extras.h
+papi-5.5.1/src/run_tests_exclude_cuda.txt
+papi-5.5.1/src/linux-generic.h
+papi-5.5.1/src/examples/
+papi-5.5.1/src/examples/Makefile.AIX
+papi-5.5.1/src/examples/Makefile.OSF1
+papi-5.5.1/src/examples/sprofile.c
+papi-5.5.1/src/examples/run_examples.sh
+papi-5.5.1/src/examples/PAPI_get_executable_info.c
+papi-5.5.1/src/examples/PAPI_flops.c
+papi-5.5.1/src/examples/overflow_pthreads.c
+papi-5.5.1/src/examples/PAPI_get_virt_cyc.c
+papi-5.5.1/src/examples/PAPI_ipc.c
+papi-5.5.1/src/examples/Makefile
+papi-5.5.1/src/examples/PAPI_get_real_cyc.c
+papi-5.5.1/src/examples/PAPI_reset.c
+papi-5.5.1/src/examples/PAPI_add_remove_events.c
+papi-5.5.1/src/examples/multiplex.c
+papi-5.5.1/src/examples/PAPI_profil.c
+papi-5.5.1/src/examples/PAPI_hw_info.c
+papi-5.5.1/src/examples/add_event/
+papi-5.5.1/src/examples/add_event/Papi_add_env_event.c
+papi-5.5.1/src/examples/Makefile.IRIX64
+papi-5.5.1/src/examples/README
+papi-5.5.1/src/examples/PAPI_overflow.c
+papi-5.5.1/src/examples/PAPI_perror.c
+papi-5.5.1/src/examples/locks_pthreads.c
+papi-5.5.1/src/examples/PAPI_state.c
+papi-5.5.1/src/examples/PAPI_set_domain.c
+papi-5.5.1/src/examples/high_level.c
+papi-5.5.1/src/examples/PAPI_add_remove_event.c
+papi-5.5.1/src/examples/PAPI_flips.c
+papi-5.5.1/src/examples/PAPI_get_opt.c
+papi-5.5.1/src/solaris-common.h
+papi-5.5.1/src/freebsd.h
+papi-5.5.1/src/run_tests_exclude.txt
+papi-5.5.1/src/freebsd-lock.h
+papi-5.5.1/src/aix-context.h
+papi-5.5.1/src/papi_memory.c
+papi-5.5.1/src/freebsd-memory.h
+papi-5.5.1/src/linux-bgq.c
+papi-5.5.1/src/perfctr-2.6.x/
+papi-5.5.1/src/perfctr-2.6.x/linux/
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/x86_tests.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/x86_tests.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/Kconfig
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/cpumask.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/RELEASE-NOTES
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/ppc_setup.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/virtual_stub.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/marshal.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/x86_compat.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/arm_setup.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/ppc_compat.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/virtual.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/Makefile
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/x86.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/global.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/virtual.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/init.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/marshal.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/ppc_tests.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/ppc.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/compat.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/ppc_tests.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/version.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/global.h
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/arm.c
+papi-5.5.1/src/perfctr-2.6.x/linux/drivers/perfctr/x86_setup.c
+papi-5.5.1/src/perfctr-2.6.x/linux/include/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/linux/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/linux/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-arm/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-arm/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-x86/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-x86/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-x86_64/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-x86_64/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-i386/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-i386/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-ppc/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-ppc/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-powerpc/
+papi-5.5.1/src/perfctr-2.6.x/linux/include/asm-powerpc/perfctr.h
+papi-5.5.1/src/perfctr-2.6.x/patches/
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.10
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18-164.el5-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.25
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.28
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.11
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.23
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.16
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.9-67.EL-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18-92.el5-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.21
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.8.1
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.17
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.7
+papi-5.5.1/src/perfctr-2.6.x/patches/aliases
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.31
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.16.46-0.12-suse
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.26
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.30
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.20
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.32
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.29
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.14
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.9-89.EL-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.13
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.15
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.24
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18-53.el5-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.5-7.276-suse
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.6
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.5
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.19
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.9
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.27
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18-194.el5-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18-128.el5-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.18-8.1.1.el5-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.22
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.9-78.EL-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.9-55.EL-redhat
+papi-5.5.1/src/perfctr-2.6.x/patches/patch-kernel-2.6.12
+papi-5.5.1/src/perfctr-2.6.x/COPYING
+papi-5.5.1/src/perfctr-2.6.x/CHANGES
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set.h
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/ppc.h
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_x86.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_ppc.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/gen-event-codes.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_arm.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/virtual.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_p5.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/arch.h
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/Makefile
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/x86.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/global.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_amd.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/arm.h
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/misc.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/x86.h
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_p4.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/ppc.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/libperfctr.h
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_p6.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/arm.c
+papi-5.5.1/src/perfctr-2.6.x/usr.lib/event_set_centaur.c
+papi-5.5.1/src/perfctr-2.6.x/Makefile
+papi-5.5.1/src/perfctr-2.6.x/examples/
+papi-5.5.1/src/perfctr-2.6.x/examples/Makefile
+papi-5.5.1/src/perfctr-2.6.x/examples/self/
+papi-5.5.1/src/perfctr-2.6.x/examples/self/arch.h
+papi-5.5.1/src/perfctr-2.6.x/examples/self/Makefile
+papi-5.5.1/src/perfctr-2.6.x/examples/self/x86.c
+papi-5.5.1/src/perfctr-2.6.x/examples/self/self.c
+papi-5.5.1/src/perfctr-2.6.x/examples/self/ppc.c
+papi-5.5.1/src/perfctr-2.6.x/examples/self/arm.c
+papi-5.5.1/src/perfctr-2.6.x/examples/README
+papi-5.5.1/src/perfctr-2.6.x/examples/global/
+papi-5.5.1/src/perfctr-2.6.x/examples/global/arch.h
+papi-5.5.1/src/perfctr-2.6.x/examples/global/Makefile
+papi-5.5.1/src/perfctr-2.6.x/examples/global/x86.c
+papi-5.5.1/src/perfctr-2.6.x/examples/global/global.c
+papi-5.5.1/src/perfctr-2.6.x/examples/global/ppc.c
+papi-5.5.1/src/perfctr-2.6.x/examples/global/arm.c
+papi-5.5.1/src/perfctr-2.6.x/examples/signal/
+papi-5.5.1/src/perfctr-2.6.x/examples/signal/signal.c
+papi-5.5.1/src/perfctr-2.6.x/examples/signal/arch.h
+papi-5.5.1/src/perfctr-2.6.x/examples/signal/Makefile
+papi-5.5.1/src/perfctr-2.6.x/examples/signal/x86.c
+papi-5.5.1/src/perfctr-2.6.x/examples/signal/ppc.c
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/ppc.h
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/arch.h
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/Makefile
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/x86.c
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/arm.h
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/perfex.c
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/x86.h
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/ppc.c
+papi-5.5.1/src/perfctr-2.6.x/examples/perfex/arm.c
+papi-5.5.1/src/perfctr-2.6.x/etc/
+papi-5.5.1/src/perfctr-2.6.x/etc/p4.c
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4-1.5
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4-3.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4Xeon-2.4
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumIII-1.4
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumII-266a
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4-1.6
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-1000
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumII-350
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-1.2
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumMMX-233
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Opteron-2.4
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/K6-III-400
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumMMX-166
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/MPC7400-400
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon64-2.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumIIIXeon-700
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/MPC7447A-1.25
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Core-i7-920-2.66
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Opteron-8384-2.7
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4Xeon-2.8
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-1.46
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4Xeon-3.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumII-266b
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4Xeon-2.2
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-1.66
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumM-2.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4-2.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Duron-750
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4-1.7
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumIII-1.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-500
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Opteron-1.4
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumIII-800
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Core2-2.4
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumII-300
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-700
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Athlon-850
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumIII-933
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Core2-E8400-3.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Opteron-8354-2.2
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PPC750-300
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium4-2.26
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumIII-450
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/MPC7455-1.0
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/PentiumPro-200
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Opteron-2352-2.1
+papi-5.5.1/src/perfctr-2.6.x/etc/costs/Pentium-133
+papi-5.5.1/src/perfctr-2.6.x/etc/Makefile
+papi-5.5.1/src/perfctr-2.6.x/etc/perfctr.rules
+papi-5.5.1/src/perfctr-2.6.x/etc/perfctr.rc
+papi-5.5.1/src/perfctr-2.6.x/etc/install.sh
+papi-5.5.1/src/perfctr-2.6.x/update-kernel
+papi-5.5.1/src/perfctr-2.6.x/TODO
+papi-5.5.1/src/perfctr-2.6.x/README
+papi-5.5.1/src/perfctr-2.6.x/OTHER
+papi-5.5.1/src/perfctr-2.6.x/perfctr.spec
+papi-5.5.1/src/perfctr-2.6.x/INSTALL
+papi-5.5.1/src/papi_memory.h
+papi-5.5.1/src/linux-memory.c
+papi-5.5.1/src/solaris-niagara2.h
+papi-5.5.1/src/papi_preset.h
+papi-5.5.1/src/.indent.pro
+papi-5.5.1/src/Rules.bgpm
+papi-5.5.1/src/x86_cpuid_info.c
+papi-5.5.1/src/linux-timer.c
+papi-5.5.1/src/papi.c
+papi-5.5.1/src/papivi.h
+papi-5.5.1/src/linux-generic.c
+papi-5.5.1/src/linux-bgq-common.c
+papi-5.5.1/src/papi_debug.h
+papi-5.5.1/src/linux-bgq-common.h
+papi-5.5.1/src/papi_hl.h
+papi-5.5.1/src/genpapifdef.c
+papi-5.5.1/src/papi_hl.c
+papi-5.5.1/src/linux-bgp.c
+papi-5.5.1/src/sw_multiplex.c
+papi-5.5.1/src/linux-bgp.h
+papi-5.5.1/src/sw_multiplex.h
+papi-5.5.1/src/papi_libpfm3_events.c
+papi-5.5.1/src/linux-bgq.h
+papi-5.5.1/src/ctests/
+papi-5.5.1/src/ctests/mendes-alt.c
+papi-5.5.1/src/ctests/high-level.c
+papi-5.5.1/src/ctests/eventname.c
+papi-5.5.1/src/ctests/multiplex1.c
+papi-5.5.1/src/ctests/zero_fork.c
+papi-5.5.1/src/ctests/case1.c
+papi-5.5.1/src/ctests/prof_utils.h
+papi-5.5.1/src/ctests/attach_target.c
+papi-5.5.1/src/ctests/zero_pthreads.c
+papi-5.5.1/src/ctests/vector.c
+papi-5.5.1/src/ctests/profile_pthreads.c
+papi-5.5.1/src/ctests/derived.c
+papi-5.5.1/src/ctests/realtime.c
+papi-5.5.1/src/ctests/sprofile.c
+papi-5.5.1/src/ctests/fork2.c
+papi-5.5.1/src/ctests/exeinfo.c
+papi-5.5.1/src/ctests/overflow_twoevents.c
+papi-5.5.1/src/ctests/forkexec3.c
+papi-5.5.1/src/ctests/pthrtough2.c
+papi-5.5.1/src/ctests/hl_rates.c
+papi-5.5.1/src/ctests/hwinfo.c
+papi-5.5.1/src/ctests/pernode.c
+papi-5.5.1/src/ctests/prof_utils.c
+papi-5.5.1/src/ctests/virttime.c
+papi-5.5.1/src/ctests/inherit.c
+papi-5.5.1/src/ctests/omptough.c
+papi-5.5.1/src/ctests/zero.c
+papi-5.5.1/src/ctests/tenth.c
+papi-5.5.1/src/ctests/memory.c
+papi-5.5.1/src/ctests/zero_shmem.c
+papi-5.5.1/src/ctests/overflow3_pthreads.c
+papi-5.5.1/src/ctests/fork.c
+papi-5.5.1/src/ctests/Makefile.recipies
+papi-5.5.1/src/ctests/version.c
+papi-5.5.1/src/ctests/multiplex2.c
+papi-5.5.1/src/ctests/overflow_pthreads.c
+papi-5.5.1/src/ctests/forkexec.c
+papi-5.5.1/src/ctests/forkexec4.c
+papi-5.5.1/src/ctests/low-level.c
+papi-5.5.1/src/ctests/johnmay2.c
+papi-5.5.1/src/ctests/Makefile.target.in
+papi-5.5.1/src/ctests/second.c
+papi-5.5.1/src/ctests/reset_multiplex.c
+papi-5.5.1/src/ctests/p4_lst_ins.c
+papi-5.5.1/src/ctests/Makefile
+papi-5.5.1/src/ctests/pthrtough.c
+papi-5.5.1/src/ctests/all_native_events.c
+papi-5.5.1/src/ctests/max_multiplex.c
+papi-5.5.1/src/ctests/overflow_values.c
+papi-5.5.1/src/ctests/overflow_single_event.c
+papi-5.5.1/src/ctests/code2name.c
+papi-5.5.1/src/ctests/attach2.c
+papi-5.5.1/src/ctests/multiattach2.c
+papi-5.5.1/src/ctests/nmi_watchdog.c
+papi-5.5.1/src/ctests/krentel_pthreads.c
+papi-5.5.1/src/ctests/earprofile.c
+papi-5.5.1/src/ctests/net-mpi-test/
+papi-5.5.1/src/ctests/net-mpi-test/cpi.pbs
+papi-5.5.1/src/ctests/net-mpi-test/Makefile
+papi-5.5.1/src/ctests/net-mpi-test/cpi.c
+papi-5.5.1/src/ctests/overflow_one_and_read.c
+papi-5.5.1/src/ctests/ipc.c
+papi-5.5.1/src/ctests/multiplex3_pthreads.c
+papi-5.5.1/src/ctests/fork_exec_overflow.c
+papi-5.5.1/src/ctests/native.c
+papi-5.5.1/src/ctests/api.c
+papi-5.5.1/src/ctests/timer_overflow.c
+papi-5.5.1/src/ctests/branches.c
+papi-5.5.1/src/ctests/attach3.c
+papi-5.5.1/src/ctests/zero_flip.c
+papi-5.5.1/src/ctests/multiattach.c
+papi-5.5.1/src/ctests/overflow_force_software.c
+papi-5.5.1/src/ctests/locks_pthreads.c
+papi-5.5.1/src/ctests/mpifirst.c
+papi-5.5.1/src/ctests/sdsc2.c
+papi-5.5.1/src/ctests/matrix-hl.c
+papi-5.5.1/src/ctests/zero_named.c
+papi-5.5.1/src/ctests/profile_twoevents.c
+papi-5.5.1/src/ctests/dmem_info.c
+papi-5.5.1/src/ctests/shlib.c
+papi-5.5.1/src/ctests/calibrate.c
+papi-5.5.1/src/ctests/burn.c
+papi-5.5.1/src/ctests/all_events.c
+papi-5.5.1/src/ctests/cycle_ratio.c
+papi-5.5.1/src/ctests/zero_omp.c
+papi-5.5.1/src/ctests/bgp/
+papi-5.5.1/src/ctests/bgp/papi_1.c
+papi-5.5.1/src/ctests/bgp/Makefile
+papi-5.5.1/src/ctests/val_omp.c
+papi-5.5.1/src/ctests/sdsc4.c
+papi-5.5.1/src/ctests/cmpinfo.c
+papi-5.5.1/src/ctests/zero_smp.c
+papi-5.5.1/src/ctests/reset.c
+papi-5.5.1/src/ctests/overflow.c
+papi-5.5.1/src/ctests/overflow2.c
+papi-5.5.1/src/ctests/clockres_pthreads.c
+papi-5.5.1/src/ctests/overflow_index.c
+papi-5.5.1/src/ctests/exec2.c
+papi-5.5.1/src/ctests/get_event_component.c
+papi-5.5.1/src/ctests/remove_events.c
+papi-5.5.1/src/ctests/first.c
+papi-5.5.1/src/ctests/thrspecific.c
+papi-5.5.1/src/ctests/disable_component.c
+papi-5.5.1/src/ctests/profile.c
+papi-5.5.1/src/ctests/kufrin.c
+papi-5.5.1/src/ctests/nineth.c
+papi-5.5.1/src/ctests/case2.c
+papi-5.5.1/src/ctests/attach_cpu.c
+papi-5.5.1/src/ctests/describe.c
+papi-5.5.1/src/ctests/data_range.c
+papi-5.5.1/src/ctests/sdsc.c
+papi-5.5.1/src/ctests/flops.c
+papi-5.5.1/src/ctests/overflow_allcounters.c
+papi-5.5.1/src/ctests/exec.c
+papi-5.5.1/src/ctests/forkexec2.c
+papi-5.5.1/src/ctests/high-level2.c
+papi-5.5.1/src/ctests/byte_profile.c
+papi-5.5.1/src/ctests/zero_attach.c
+papi-5.5.1/src/ctests/multiplex1_pthreads.c
+papi-5.5.1/src/README
+papi-5.5.1/src/linux-bgp-lock.h
+papi-5.5.1/src/linux-common.h
+papi-5.5.1/src/cpus.h
+papi-5.5.1/src/freebsd/
+papi-5.5.1/src/freebsd/map-westmere.h
+papi-5.5.1/src/freebsd/map-p6-c.h
+papi-5.5.1/src/freebsd/map-p6-3.c
+papi-5.5.1/src/freebsd/map-p6-2.c
+papi-5.5.1/src/freebsd/map-core2.c
+papi-5.5.1/src/freebsd/map-p6-2.h
+papi-5.5.1/src/freebsd/map-k8.h
+papi-5.5.1/src/freebsd/map-p6.c
+papi-5.5.1/src/freebsd/map-i7.c
+papi-5.5.1/src/freebsd/map.c
+papi-5.5.1/src/freebsd/map-core2-extreme.h
+papi-5.5.1/src/freebsd/map-westmere.c
+papi-5.5.1/src/freebsd/map-p4.c
+papi-5.5.1/src/freebsd/map-core.c
+papi-5.5.1/src/freebsd/map-p6-m.h
+papi-5.5.1/src/freebsd/map-p4.h
+papi-5.5.1/src/freebsd/map-core.h
+papi-5.5.1/src/freebsd/map-k8.c
+papi-5.5.1/src/freebsd/map-unknown.c
+papi-5.5.1/src/freebsd/map-atom.h
+papi-5.5.1/src/freebsd/map-unknown.h
+papi-5.5.1/src/freebsd/map-p6-m.c
+papi-5.5.1/src/freebsd/map-k7.c
+papi-5.5.1/src/freebsd/map-p6-3.h
+papi-5.5.1/src/freebsd/map-p6-c.c
+papi-5.5.1/src/freebsd/map.h
+papi-5.5.1/src/freebsd/map-i7.h
+papi-5.5.1/src/freebsd/map-core2.h
+papi-5.5.1/src/freebsd/map-atom.c
+papi-5.5.1/src/freebsd/map-p6.h
+papi-5.5.1/src/freebsd/map-core2-extreme.c
+papi-5.5.1/src/freebsd/map-k7.h
+papi-5.5.1/src/papi.pc.in
+papi-5.5.1/src/solaris-niagara2.c
+papi-5.5.1/src/threads.c
+papi-5.5.1/src/linux-memory.h
+papi-5.5.1/src/papi_vector.c
+papi-5.5.1/src/papi.h
+papi-5.5.1/src/aix.c
+papi-5.5.1/src/papi_lock.h
+papi-5.5.1/src/event_data/
+papi-5.5.1/src/event_data/power4/
+papi-5.5.1/src/event_data/power4/groups
+papi-5.5.1/src/event_data/power4/events
+papi-5.5.1/src/event_data/power5/
+papi-5.5.1/src/event_data/power5/groups
+papi-5.5.1/src/event_data/power5/events
+papi-5.5.1/src/event_data/power5+/
+papi-5.5.1/src/event_data/power5+/groups
+papi-5.5.1/src/event_data/power5+/events
+papi-5.5.1/src/event_data/ppc970/
+papi-5.5.1/src/event_data/ppc970/groups
+papi-5.5.1/src/event_data/ppc970/events
+papi-5.5.1/src/CreatePresetTbl.sh
+papi-5.5.1/src/x86_cpuid_info.h
+papi-5.5.1/src/cpus.c
+papi-5.5.1/src/solaris-lock.h
+papi-5.5.1/src/papi_preset.c
+papi-5.5.1/src/papi_events.csv
+papi-5.5.1/src/darwin-memory.h
+papi-5.5.1/src/aix.h
+papi-5.5.1/src/configure.in
+papi-5.5.1/src/linux-bgp-context.h
+papi-5.5.1/src/components/
+papi-5.5.1/src/components/Makefile_comp_tests
+papi-5.5.1/src/components/perfctr_ppc/
+papi-5.5.1/src/components/perfctr_ppc/power5+_events.h
+papi-5.5.1/src/components/perfctr_ppc/power5_events_map.c
+papi-5.5.1/src/components/perfctr_ppc/perfctr-ppc64.h
+papi-5.5.1/src/components/perfctr_ppc/linux-ppc64.h
+papi-5.5.1/src/components/perfctr_ppc/Rules.perfctr_ppc
+papi-5.5.1/src/components/perfctr_ppc/power6_events.h
+papi-5.5.1/src/components/perfctr_ppc/power6_events_map.c
+papi-5.5.1/src/components/perfctr_ppc/power5_events.h
+papi-5.5.1/src/components/perfctr_ppc/perfctr-ppc64.c
+papi-5.5.1/src/components/perfctr_ppc/power5+_events_map.c
+papi-5.5.1/src/components/perfctr_ppc/ppc970_events_map.c
+papi-5.5.1/src/components/perfctr_ppc/ppc970_events.h
+papi-5.5.1/src/components/perfctr_ppc/ppc64_events.c
+papi-5.5.1/src/components/perfctr_ppc/ppc64_events.h
+papi-5.5.1/src/components/perfctr_ppc/power7_events.h
+papi-5.5.1/src/components/perfmon2/
+papi-5.5.1/src/components/perfmon2/perfmon.h
+papi-5.5.1/src/components/perfmon2/Rules.perfmon2
+papi-5.5.1/src/components/perfmon2/perfmon.c
+papi-5.5.1/src/components/Rules.components
+papi-5.5.1/src/components/perfmon_ia64/
+papi-5.5.1/src/components/perfmon_ia64/Rules.perfmon_ia64
+papi-5.5.1/src/components/perfmon_ia64/perfmon-ia64.h
+papi-5.5.1/src/components/perfmon_ia64/perfmon-ia64.c
+papi-5.5.1/src/components/coretemp_freebsd/
+papi-5.5.1/src/components/coretemp_freebsd/README
+papi-5.5.1/src/components/coretemp_freebsd/Rules.coretemp_freebsd
+papi-5.5.1/src/components/coretemp_freebsd/coretemp_freebsd.h
+papi-5.5.1/src/components/coretemp_freebsd/coretemp_freebsd.c
+papi-5.5.1/src/components/perfctr/
+papi-5.5.1/src/components/perfctr/perfctr-x86.c
+papi-5.5.1/src/components/perfctr/perfctr-x86.h
+papi-5.5.1/src/components/perfctr/Rules.perfctr
+papi-5.5.1/src/components/perfctr/perfctr.c
+papi-5.5.1/src/components/emon/
+papi-5.5.1/src/components/emon/linux-emon.c
+papi-5.5.1/src/components/emon/Rules.emon
+papi-5.5.1/src/components/emon/README
+papi-5.5.1/src/components/net/
+papi-5.5.1/src/components/net/CHANGES
+papi-5.5.1/src/components/net/linux-net.h
+papi-5.5.1/src/components/net/tests/
+papi-5.5.1/src/components/net/tests/net_values_by_code.c
+papi-5.5.1/src/components/net/tests/Makefile
+papi-5.5.1/src/components/net/tests/net_list_events.c
+papi-5.5.1/src/components/net/tests/net_values_by_name.c
+papi-5.5.1/src/components/net/README
+papi-5.5.1/src/components/net/linux-net.c
+papi-5.5.1/src/components/net/Rules.net
+papi-5.5.1/src/components/micpower/
+papi-5.5.1/src/components/micpower/linux-micpower.c
+papi-5.5.1/src/components/micpower/Rules.micpower
+papi-5.5.1/src/components/micpower/linux-micpower.h
+papi-5.5.1/src/components/micpower/tests/
+papi-5.5.1/src/components/micpower/tests/Makefile
+papi-5.5.1/src/components/micpower/tests/micpower_basic.c
+papi-5.5.1/src/components/micpower/README
+papi-5.5.1/src/components/host_micpower/
+papi-5.5.1/src/components/host_micpower/utils/
+papi-5.5.1/src/components/host_micpower/utils/Makefile
+papi-5.5.1/src/components/host_micpower/utils/host_micpower_plot.c
+papi-5.5.1/src/components/host_micpower/utils/README
+papi-5.5.1/src/components/host_micpower/Rules.host_micpower
+papi-5.5.1/src/components/host_micpower/configure
+papi-5.5.1/src/components/host_micpower/Makefile.host_micpower.in
+papi-5.5.1/src/components/host_micpower/tests/
+papi-5.5.1/src/components/host_micpower/tests/host_micpower_basic.c
+papi-5.5.1/src/components/host_micpower/tests/Makefile
+papi-5.5.1/src/components/host_micpower/README
+papi-5.5.1/src/components/host_micpower/linux-host_micpower.c
+papi-5.5.1/src/components/host_micpower/configure.ac
+papi-5.5.1/src/components/Makefile_comp_tests.target.in
+papi-5.5.1/src/components/lustre/
+papi-5.5.1/src/components/lustre/tests/
+papi-5.5.1/src/components/lustre/tests/Makefile
+papi-5.5.1/src/components/lustre/tests/lustre_basic.c
+papi-5.5.1/src/components/lustre/linux-lustre.c
+papi-5.5.1/src/components/lustre/fake_proc/
+papi-5.5.1/src/components/lustre/fake_proc/fs/
+papi-5.5.1/src/components/lustre/fake_proc/fs/lustre/
+papi-5.5.1/src/components/lustre/fake_proc/fs/lustre/llite/
+papi-5.5.1/src/components/lustre/fake_proc/fs/lustre/llite/hpcdata-ffff81022a732800/
+papi-5.5.1/src/components/lustre/fake_proc/fs/lustre/llite/hpcdata-ffff81022a732800/read_ahead_stats
+papi-5.5.1/src/components/lustre/fake_proc/fs/lustre/llite/hpcdata-ffff81022a732800/stats
+papi-5.5.1/src/components/lustre/Rules.lustre
+papi-5.5.1/src/components/appio/
+papi-5.5.1/src/components/appio/CHANGES
+papi-5.5.1/src/components/appio/appio.c
+papi-5.5.1/src/components/appio/appio.h
+papi-5.5.1/src/components/appio/Rules.appio
+papi-5.5.1/src/components/appio/tests/
+papi-5.5.1/src/components/appio/tests/init_fini.c
+papi-5.5.1/src/components/appio/tests/appio_test_socket.c
+papi-5.5.1/src/components/appio/tests/Makefile
+papi-5.5.1/src/components/appio/tests/iozone/
+papi-5.5.1/src/components/appio/tests/iozone/libasync.c
+papi-5.5.1/src/components/appio/tests/iozone/Gnuplot.txt
+papi-5.5.1/src/components/appio/tests/iozone/gnu3d.dem
+papi-5.5.1/src/components/appio/tests/iozone/libbif.c
+papi-5.5.1/src/components/appio/tests/iozone/makefile
+papi-5.5.1/src/components/appio/tests/iozone/report.pl
+papi-5.5.1/src/components/appio/tests/iozone/gengnuplot.sh
+papi-5.5.1/src/components/appio/tests/iozone/Generate_Graphs
+papi-5.5.1/src/components/appio/tests/iozone/write_telemetry
+papi-5.5.1/src/components/appio/tests/iozone/client_list
+papi-5.5.1/src/components/appio/tests/iozone/iozone.c
+papi-5.5.1/src/components/appio/tests/iozone/fileop.c
+papi-5.5.1/src/components/appio/tests/iozone/gnuplotps.dem
+papi-5.5.1/src/components/appio/tests/iozone/read_telemetry
+papi-5.5.1/src/components/appio/tests/iozone/pit_server.c
+papi-5.5.1/src/components/appio/tests/iozone/iozone_visualizer.pl
+papi-5.5.1/src/components/appio/tests/iozone/gnuplot.dem
+papi-5.5.1/src/components/appio/tests/iozone/Changes.txt
+papi-5.5.1/src/components/appio/tests/iozone/spec.in
+papi-5.5.1/src/components/appio/tests/appio_test_blocking.c
+papi-5.5.1/src/components/appio/tests/appio_test_seek.c
+papi-5.5.1/src/components/appio/tests/appio_test_fread_fwrite.c
+papi-5.5.1/src/components/appio/tests/appio_test_pthreads.c
+papi-5.5.1/src/components/appio/tests/appio_test_recv.c
+papi-5.5.1/src/components/appio/tests/appio_test_select.c
+papi-5.5.1/src/components/appio/tests/appio_test_read_write.c
+papi-5.5.1/src/components/appio/tests/appio_list_events.c
+papi-5.5.1/src/components/appio/tests/appio_values_by_code.c
+papi-5.5.1/src/components/appio/tests/appio_values_by_name.c
+papi-5.5.1/src/components/appio/README
+papi-5.5.1/src/components/mx/
+papi-5.5.1/src/components/mx/utils/
+papi-5.5.1/src/components/mx/utils/fake_mx_counters.c
+papi-5.5.1/src/components/mx/utils/sample_output
+papi-5.5.1/src/components/mx/Rules.mx
+papi-5.5.1/src/components/mx/tests/
+papi-5.5.1/src/components/mx/tests/Makefile
+papi-5.5.1/src/components/mx/tests/mx_elapsed.c
+papi-5.5.1/src/components/mx/tests/mx_basic.c
+papi-5.5.1/src/components/mx/linux-mx.c
+papi-5.5.1/src/components/rapl/
+papi-5.5.1/src/components/rapl/utils/
+papi-5.5.1/src/components/rapl/utils/rapl_plot.c
+papi-5.5.1/src/components/rapl/utils/Makefile
+papi-5.5.1/src/components/rapl/utils/README
+papi-5.5.1/src/components/rapl/tests/
+papi-5.5.1/src/components/rapl/tests/Makefile
+papi-5.5.1/src/components/rapl/tests/rapl_basic.c
+papi-5.5.1/src/components/rapl/tests/rapl_overflow.c
+papi-5.5.1/src/components/rapl/linux-rapl.c
+papi-5.5.1/src/components/rapl/README
+papi-5.5.1/src/components/rapl/Rules.rapl
+papi-5.5.1/src/components/infiniband_umad/
+papi-5.5.1/src/components/infiniband_umad/linux-infiniband_umad.c
+papi-5.5.1/src/components/infiniband_umad/configure
+papi-5.5.1/src/components/infiniband_umad/Makefile.infiniband_umad.in
+papi-5.5.1/src/components/infiniband_umad/tests/
+papi-5.5.1/src/components/infiniband_umad/tests/infiniband_umad_list_events.c
+papi-5.5.1/src/components/infiniband_umad/tests/Makefile
+papi-5.5.1/src/components/infiniband_umad/tests/infiniband_umad_values_by_code.c
+papi-5.5.1/src/components/infiniband_umad/README
+papi-5.5.1/src/components/infiniband_umad/configure.in
+papi-5.5.1/src/components/infiniband_umad/linux-infiniband_umad.h
+papi-5.5.1/src/components/infiniband_umad/Rules.infiniband_umad
+papi-5.5.1/src/components/README
+papi-5.5.1/src/components/infiniband/
+papi-5.5.1/src/components/infiniband/pscanf.h
+papi-5.5.1/src/components/infiniband/tests/
+papi-5.5.1/src/components/infiniband/tests/Makefile
+papi-5.5.1/src/components/infiniband/tests/infiniband_list_events.c
+papi-5.5.1/src/components/infiniband/tests/infiniband_values_by_code.c
+papi-5.5.1/src/components/infiniband/linux-infiniband.c
+papi-5.5.1/src/components/infiniband/README
+papi-5.5.1/src/components/infiniband/Rules.infiniband
+papi-5.5.1/src/components/example/
+papi-5.5.1/src/components/example/example.h
+papi-5.5.1/src/components/example/example.c
+papi-5.5.1/src/components/example/Rules.example
+papi-5.5.1/src/components/example/tests/
+papi-5.5.1/src/components/example/tests/example_multiple_components.c
+papi-5.5.1/src/components/example/tests/Makefile
+papi-5.5.1/src/components/example/tests/example_basic.c
+papi-5.5.1/src/components/libmsr/
+papi-5.5.1/src/components/libmsr/Makefile.libmsr.in
+papi-5.5.1/src/components/libmsr/utils/
+papi-5.5.1/src/components/libmsr/utils/libmsr_write_test.sh
+papi-5.5.1/src/components/libmsr/utils/README
+papi-5.5.1/src/components/libmsr/utils/libmsr_write_test.c
+papi-5.5.1/src/components/libmsr/configure
+papi-5.5.1/src/components/libmsr/linux-libmsr.c
+papi-5.5.1/src/components/libmsr/tests/
+papi-5.5.1/src/components/libmsr/tests/libmsr_basic.c
+papi-5.5.1/src/components/libmsr/README
+papi-5.5.1/src/components/libmsr/configure.in
+papi-5.5.1/src/components/libmsr/Rules.libmsr
+papi-5.5.1/src/components/nvml/
+papi-5.5.1/src/components/nvml/Makefile.nvml.in
+papi-5.5.1/src/components/nvml/linux-nvml.h
+papi-5.5.1/src/components/nvml/configure
+papi-5.5.1/src/components/nvml/tests/
+papi-5.5.1/src/components/nvml/tests/Makefile
+papi-5.5.1/src/components/nvml/tests/HelloWorld.cu
+papi-5.5.1/src/components/nvml/Rules.nvml
+papi-5.5.1/src/components/nvml/README
+papi-5.5.1/src/components/nvml/linux-nvml.c
+papi-5.5.1/src/components/nvml/configure.in
+papi-5.5.1/src/components/stealtime/
+papi-5.5.1/src/components/stealtime/tests/
+papi-5.5.1/src/components/stealtime/tests/Makefile
+papi-5.5.1/src/components/stealtime/tests/stealtime_basic.c
+papi-5.5.1/src/components/stealtime/Rules.stealtime
+papi-5.5.1/src/components/stealtime/linux-stealtime.c
+papi-5.5.1/src/components/coretemp/
+papi-5.5.1/src/components/coretemp/tests/
+papi-5.5.1/src/components/coretemp/tests/coretemp_pretty.c
+papi-5.5.1/src/components/coretemp/tests/Makefile
+papi-5.5.1/src/components/coretemp/tests/coretemp_basic.c
+papi-5.5.1/src/components/coretemp/linux-coretemp.c
+papi-5.5.1/src/components/coretemp/linux-coretemp.h
+papi-5.5.1/src/components/coretemp/Rules.coretemp
+papi-5.5.1/src/components/cuda/
+papi-5.5.1/src/components/cuda/configure
+papi-5.5.1/src/components/cuda/linux-cuda.c
+papi-5.5.1/src/components/cuda/Rules.cuda
+papi-5.5.1/src/components/cuda/tests/
+papi-5.5.1/src/components/cuda/tests/timer.h
+papi-5.5.1/src/components/cuda/tests/Makefile
+papi-5.5.1/src/components/cuda/tests/simpleMultiGPU.cu
+papi-5.5.1/src/components/cuda/tests/cuda_ld_preload_example.c
+papi-5.5.1/src/components/cuda/tests/cuda_ld_preload_example.README
+papi-5.5.1/src/components/cuda/tests/HelloWorld.cu
+papi-5.5.1/src/components/cuda/tests/simpleMultiGPU.h
+papi-5.5.1/src/components/cuda/README
+papi-5.5.1/src/components/cuda/Makefile.cuda.in
+papi-5.5.1/src/components/cuda/configure.in
+papi-5.5.1/src/components/cuda/sampling/
+papi-5.5.1/src/components/cuda/sampling/path.h.in
+papi-5.5.1/src/components/cuda/sampling/activity.c
+papi-5.5.1/src/components/cuda/sampling/Makefile
+papi-5.5.1/src/components/cuda/sampling/gpu_activity.c
+papi-5.5.1/src/components/cuda/sampling/README
+papi-5.5.1/src/components/cuda/sampling/test/
+papi-5.5.1/src/components/cuda/sampling/test/matmul.cu
+papi-5.5.1/src/components/cuda/sampling/test/sass_source_map.cubin
+papi-5.5.1/src/components/powercap/
+papi-5.5.1/src/components/powercap/utils/
+papi-5.5.1/src/components/powercap/utils/powercap_plot.c
+papi-5.5.1/src/components/powercap/utils/Makefile
+papi-5.5.1/src/components/powercap/utils/README
+papi-5.5.1/src/components/powercap/tests/
+papi-5.5.1/src/components/powercap/tests/powercap_basic.c
+papi-5.5.1/src/components/powercap/tests/Makefile
+papi-5.5.1/src/components/powercap/README
+papi-5.5.1/src/components/powercap/Rules.powercap
+papi-5.5.1/src/components/powercap/linux-powercap.c
+papi-5.5.1/src/components/perf_event_uncore/
+papi-5.5.1/src/components/perf_event_uncore/peu_libpfm4_events.h
+papi-5.5.1/src/components/perf_event_uncore/peu_libpfm4_events.c
+papi-5.5.1/src/components/perf_event_uncore/Rules.perf_event_uncore
+papi-5.5.1/src/components/perf_event_uncore/tests/
+papi-5.5.1/src/components/perf_event_uncore/tests/perf_event_uncore_multiple.c
+papi-5.5.1/src/components/perf_event_uncore/tests/perf_event_uncore_lib.c
+papi-5.5.1/src/components/perf_event_uncore/tests/perf_event_uncore_lib.h
+papi-5.5.1/src/components/perf_event_uncore/tests/Makefile
+papi-5.5.1/src/components/perf_event_uncore/tests/perf_event_uncore.c
+papi-5.5.1/src/components/perf_event_uncore/tests/perf_event_amd_northbridge.c
+papi-5.5.1/src/components/perf_event_uncore/tests/perf_event_uncore_cbox.c
+papi-5.5.1/src/components/perf_event_uncore/perf_event_uncore.c
+papi-5.5.1/src/components/lmsensors/
+papi-5.5.1/src/components/lmsensors/configure
+papi-5.5.1/src/components/lmsensors/linux-lmsensors.c
+papi-5.5.1/src/components/lmsensors/Rules.lmsensors
+papi-5.5.1/src/components/lmsensors/Makefile.lmsensors.in
+papi-5.5.1/src/components/lmsensors/README
+papi-5.5.1/src/components/lmsensors/configure.in
+papi-5.5.1/src/components/perf_event/
+papi-5.5.1/src/components/perf_event/pe_libpfm4_events.h
+papi-5.5.1/src/components/perf_event/tests/
+papi-5.5.1/src/components/perf_event/tests/perf_event_offcore_response.c
+papi-5.5.1/src/components/perf_event/tests/perf_event_user_kernel.c
+papi-5.5.1/src/components/perf_event/tests/event_name_lib.c
+papi-5.5.1/src/components/perf_event/tests/Makefile
+papi-5.5.1/src/components/perf_event/tests/event_name_lib.h
+papi-5.5.1/src/components/perf_event/tests/perf_event_system_wide.c
+papi-5.5.1/src/components/perf_event/perf_event.c
+papi-5.5.1/src/components/perf_event/pe_libpfm4_events.c
+papi-5.5.1/src/components/perf_event/perf_event_lib.h
+papi-5.5.1/src/components/perf_event/Rules.perf_event
+papi-5.5.1/src/components/vmware/
+papi-5.5.1/src/components/vmware/VMwareComponentDocument.txt
+papi-5.5.1/src/components/vmware/Makefile.vmware.in
+papi-5.5.1/src/components/vmware/PAPI-VMwareComponentDocument.pdf
+papi-5.5.1/src/components/vmware/configure
+papi-5.5.1/src/components/vmware/Rules.vmware
+papi-5.5.1/src/components/vmware/tests/
+papi-5.5.1/src/components/vmware/tests/Makefile
+papi-5.5.1/src/components/vmware/tests/vmware_basic.c
+papi-5.5.1/src/components/vmware/README
+papi-5.5.1/src/components/vmware/vmware.c
+papi-5.5.1/src/components/vmware/configure.in
+papi-5.5.1/src/components/bgpm/
+papi-5.5.1/src/components/bgpm/CNKunit/
+papi-5.5.1/src/components/bgpm/CNKunit/linux-CNKunit.c
+papi-5.5.1/src/components/bgpm/CNKunit/Rules.CNKunit
+papi-5.5.1/src/components/bgpm/CNKunit/linux-CNKunit.h
+papi-5.5.1/src/components/bgpm/IOunit/
+papi-5.5.1/src/components/bgpm/IOunit/linux-IOunit.c
+papi-5.5.1/src/components/bgpm/IOunit/linux-IOunit.h
+papi-5.5.1/src/components/bgpm/IOunit/Rules.IOunit
+papi-5.5.1/src/components/bgpm/L2unit/
+papi-5.5.1/src/components/bgpm/L2unit/Rules.L2unit
+papi-5.5.1/src/components/bgpm/L2unit/linux-L2unit.h
+papi-5.5.1/src/components/bgpm/L2unit/linux-L2unit.c
+papi-5.5.1/src/components/bgpm/README
+papi-5.5.1/src/components/bgpm/NWunit/
+papi-5.5.1/src/components/bgpm/NWunit/Rules.NWunit
+papi-5.5.1/src/components/bgpm/NWunit/linux-NWunit.h
+papi-5.5.1/src/components/bgpm/NWunit/linux-NWunit.c
+papi-5.5.1/src/linux-context.h
+papi-5.5.1/src/linux-bgq-memory.c
+papi-5.5.1/src/aix-memory.c
+papi-5.5.1/src/solaris-common.c
+papi-5.5.1/src/linux-common.c
+papi-5.5.1/src/linux-bgp-memory.c
+papi-5.5.1/src/Rules.perfctr
+papi-5.5.1/src/darwin-lock.h
+papi-5.5.1/src/libpfm4/
+papi-5.5.1/src/libpfm4/docs/
+papi-5.5.1/src/libpfm4/docs/Makefile
+papi-5.5.1/src/libpfm4/docs/man3/
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snb.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_amd64_k7.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_ac8.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_version.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_ac57.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snb_unc.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_event_encoding.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_nhm.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_ac9.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_knl.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_p6.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_sbo.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_r2pcie.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivb.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hsw.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_cbo.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivb_unc.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_glm.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_r3qpi.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_amd64_fam10h.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_r3qpi.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_qpi.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_rapl.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_imc.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_cbo.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_find_event.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_pcu.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_nhm_unc.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_ubo.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_skl.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_r2pcie.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_wsm.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_pmu_info.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_knc.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_initialize.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_amd64.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_os_event_encoding.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_bdw.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_ubo.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_terminate.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_r3qpi.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_imc.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_slm.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_event_next.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_ha.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_qcom_krait.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_strerror.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_irp.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_event_info.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_x86_arch.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_ac15.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_cbo.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_ubo.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_ac53.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_event_attr_info.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_irp.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_pcu.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_xgene.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_pcu.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_perf_event_raw.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_arm_ac7.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_ha.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_hswep_unc_qpi.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_imc.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_core.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_wsm_unc.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_atom.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_amd64_fam15h.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_ha.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_amd64_k8.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_snbep_unc_qpi.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_coreduo.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_intel_ivbep_unc_r2pcie.3
+papi-5.5.1/src/libpfm4/docs/man3/pfm_get_perf_event_encoding.3
+papi-5.5.1/src/libpfm4/docs/man3/libpfm_mips_74k.3
+papi-5.5.1/src/libpfm4/lib/
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_fam14h.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_cbo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_s390x_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_netburst.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_knc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_mips_74k.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_itanium.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_itanium2.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_arm.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_glm.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_arm_armv7_pmuv1.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivb.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_pcu.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_itanium_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc_ultra12.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hsw.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_knl.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_arm_armv6.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_mips_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc_ultra4.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_imc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivb_unc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_power5.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_mips_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_fam11h.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snb.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_itanium2_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_ubo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_cell.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_x86_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_skl.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_r2pcie.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_imc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_knl_unc_cha.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_x86_arch.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_coreduo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_qpi.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_power4.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_atom.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_ubo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_x86.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_perf_event.c
+papi-5.5.1/src/libpfm4/lib/Makefile
+papi-5.5.1/src/libpfm4/lib/pfmlib_cell_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_cbo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_perf_event_raw.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_x86_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_k7.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_power7.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_nhm_unc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_sicortex_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_slm.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_rapl.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_irp.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_fam12h.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_power6.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_ia64_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_perf_event_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_r3qpi.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_ppc970.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_arm_armv8.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_pcu.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_arm_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_fam15h.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_p6.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_knl_unc_edc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_mips.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_powerpc_nest.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_core.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_ha.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_gen_ia64.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc_niagara.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_ha.c
+papi-5.5.1/src/libpfm4/lib/events/
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_r2pcie_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_ubo_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_bdw_events.h
+papi-5.5.1/src/libpfm4/lib/events/power5+_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_pii_events.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_fam15h.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_fam11h.h
+papi-5.5.1/src/libpfm4/lib/events/intel_coreduo_events.h
+papi-5.5.1/src/libpfm4/lib/events/torrent_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_r2pcie_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_nhm_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_cortex_a57_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_p6_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_slm_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_ultra3plus_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_xgene_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_imc_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_knl_unc_edc_events.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_fam10h.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_fam12h.h
+papi-5.5.1/src/libpfm4/lib/events/intel_pm_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_qpi_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_r2pcie_events.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_fam14h.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_r3qpi_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_pcu_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_ha_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_ultra3i_events.h
+papi-5.5.1/src/libpfm4/lib/events/powerpc_nest_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ppro_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_irp_events.h
+papi-5.5.1/src/libpfm4/lib/events/power4_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_cortex_a7_events.h
+papi-5.5.1/src/libpfm4/lib/events/cell_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_qpi_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_ultra4plus_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_r3qpi_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_cortex_a53_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_imc_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_skl_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_knl_unc_m2pcie_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_r3qpi_events.h
+papi-5.5.1/src/libpfm4/lib/events/s390x_cpumf_events.h
+papi-5.5.1/src/libpfm4/lib/events/montecito_events.h
+papi-5.5.1/src/libpfm4/lib/events/power6_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_ubo_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_qcom_krait_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivb_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_niagara1_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snb_unc_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_ubo_events.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_k8.h
+papi-5.5.1/src/libpfm4/lib/events/intel_knl_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snb_events.h
+papi-5.5.1/src/libpfm4/lib/events/power5_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hsw_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_cortex_a9_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_ultra12_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_pcu_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_netburst_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_cortex_a8_events.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_k7.h
+papi-5.5.1/src/libpfm4/lib/events/intel_atom_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_glm_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_knl_unc_imc_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_cbo_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_irp_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_ultra3_events.h
+papi-5.5.1/src/libpfm4/lib/events/perf_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_cbo_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_wsm_events.h
+papi-5.5.1/src/libpfm4/lib/events/mips_74k_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_qpi_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_imc_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_x86_arch_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_core_events.h
+papi-5.5.1/src/libpfm4/lib/events/power8_events.h
+papi-5.5.1/src/libpfm4/lib/events/ppc970mp_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_nhm_unc_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_sbo_events.h
+papi-5.5.1/src/libpfm4/lib/events/ppc970_events.h
+papi-5.5.1/src/libpfm4/lib/events/sparc_niagara2_events.h
+papi-5.5.1/src/libpfm4/lib/events/itanium_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_ha_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_knl_unc_cha_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_hswep_unc_pcu_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_knc_events.h
+papi-5.5.1/src/libpfm4/lib/events/power7_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_snbep_unc_cbo_events.h
+papi-5.5.1/src/libpfm4/lib/events/itanium2_events.h
+papi-5.5.1/src/libpfm4/lib/events/powerpc_events.h
+papi-5.5.1/src/libpfm4/lib/events/amd64_events_fam15h_nb.h
+papi-5.5.1/src/libpfm4/lib/events/arm_1176_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_ivbep_unc_ha_events.h
+papi-5.5.1/src/libpfm4/lib/events/intel_wsm_unc_events.h
+papi-5.5.1/src/libpfm4/lib/events/arm_cortex_a15_events.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_powerpc_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_common.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_r2pcie.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_ha.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_qpi.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_knl_unc_imc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_fam10h.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_r3qpi.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_s390x_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_imc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_bdw.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_sicortex.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc_ultra3.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_sbo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_arm_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_sparc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_irp.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_torrent.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_wsm.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_nhm.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snb_unc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_cbo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_perf_event_pmu.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_ubo.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_amd64_k8.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_netburst_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_montecito_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_pcu.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_s390x_cpumf.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_hswep_unc_qpi.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_netburst_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_perf_event.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_montecito.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc_r3qpi.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_power8.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_knl_unc_m2pcie.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_power_priv.h
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_snbep_unc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_powerpc.c
+papi-5.5.1/src/libpfm4/lib/pfmlib_intel_ivbep_unc_r2pcie.c
+papi-5.5.1/src/libpfm4/COPYING
+papi-5.5.1/src/libpfm4/config.mk
+papi-5.5.1/src/libpfm4/python/
+papi-5.5.1/src/libpfm4/python/src/
+papi-5.5.1/src/libpfm4/python/src/session.py
+papi-5.5.1/src/libpfm4/python/src/perfmon_int.i
+papi-5.5.1/src/libpfm4/python/src/__init__.py
+papi-5.5.1/src/libpfm4/python/src/pmu.py
+papi-5.5.1/src/libpfm4/python/Makefile
+papi-5.5.1/src/libpfm4/python/README
+papi-5.5.1/src/libpfm4/python/self.py
+papi-5.5.1/src/libpfm4/python/sys.py
+papi-5.5.1/src/libpfm4/python/setup.py
+papi-5.5.1/src/libpfm4/debian/
+papi-5.5.1/src/libpfm4/debian/docs
+papi-5.5.1/src/libpfm4/debian/libpfm4-dev.manpages
+papi-5.5.1/src/libpfm4/debian/compat
+papi-5.5.1/src/libpfm4/debian/changelog
+papi-5.5.1/src/libpfm4/debian/libpfm4-dev.dirs
+papi-5.5.1/src/libpfm4/debian/control
+papi-5.5.1/src/libpfm4/debian/python-libpfm4.install
+papi-5.5.1/src/libpfm4/debian/rules
+papi-5.5.1/src/libpfm4/debian/source/
+papi-5.5.1/src/libpfm4/debian/source/format
+papi-5.5.1/src/libpfm4/debian/pyversions
+papi-5.5.1/src/libpfm4/debian/README
+papi-5.5.1/src/libpfm4/debian/libpfm4-dev.install
+papi-5.5.1/src/libpfm4/debian/README.source
+papi-5.5.1/src/libpfm4/debian/libpfm4.install
+papi-5.5.1/src/libpfm4/debian/copyright
+papi-5.5.1/src/libpfm4/Makefile
+papi-5.5.1/src/libpfm4/examples/
+papi-5.5.1/src/libpfm4/examples/check_events.c
+papi-5.5.1/src/libpfm4/examples/Makefile
+papi-5.5.1/src/libpfm4/examples/showevtinfo.c
+papi-5.5.1/src/libpfm4/tests/
+papi-5.5.1/src/libpfm4/tests/validate.c
+papi-5.5.1/src/libpfm4/tests/Makefile
+papi-5.5.1/src/libpfm4/tests/validate_arm.c
+papi-5.5.1/src/libpfm4/tests/validate_power.c
+papi-5.5.1/src/libpfm4/tests/validate_arm64.c
+papi-5.5.1/src/libpfm4/tests/validate_mips.c
+papi-5.5.1/src/libpfm4/tests/validate_x86.c
+papi-5.5.1/src/libpfm4/README
+papi-5.5.1/src/libpfm4/rules.mk
+papi-5.5.1/src/libpfm4/libpfm.spec
+papi-5.5.1/src/libpfm4/perf_examples/
+papi-5.5.1/src/libpfm4/perf_examples/syst.c
+papi-5.5.1/src/libpfm4/perf_examples/syst_count.c
+papi-5.5.1/src/libpfm4/perf_examples/task_cpu.c
+papi-5.5.1/src/libpfm4/perf_examples/task_smpl.c
+papi-5.5.1/src/libpfm4/perf_examples/x86/
+papi-5.5.1/src/libpfm4/perf_examples/x86/bts_smpl.c
+papi-5.5.1/src/libpfm4/perf_examples/x86/Makefile
+papi-5.5.1/src/libpfm4/perf_examples/task_attach_timeout.c
+papi-5.5.1/src/libpfm4/perf_examples/Makefile
+papi-5.5.1/src/libpfm4/perf_examples/syst_smpl.c
+papi-5.5.1/src/libpfm4/perf_examples/task.c
+papi-5.5.1/src/libpfm4/perf_examples/perf_util.c
+papi-5.5.1/src/libpfm4/perf_examples/self_basic.c
+papi-5.5.1/src/libpfm4/perf_examples/notify_self.c
+papi-5.5.1/src/libpfm4/perf_examples/rtop.c
+papi-5.5.1/src/libpfm4/perf_examples/self.c
+papi-5.5.1/src/libpfm4/perf_examples/self_smpl_multi.c
+papi-5.5.1/src/libpfm4/perf_examples/notify_group.c
+papi-5.5.1/src/libpfm4/perf_examples/evt2raw.c
+papi-5.5.1/src/libpfm4/perf_examples/perf_util.h
+papi-5.5.1/src/libpfm4/perf_examples/self_count.c
+papi-5.5.1/src/libpfm4/perf_examples/self_pipe.c
+papi-5.5.1/src/libpfm4/include/
+papi-5.5.1/src/libpfm4/include/Makefile
+papi-5.5.1/src/libpfm4/include/perfmon/
+papi-5.5.1/src/libpfm4/include/perfmon/err.h
+papi-5.5.1/src/libpfm4/include/perfmon/pfmlib.h
+papi-5.5.1/src/libpfm4/include/perfmon/pfmlib_perf_event.h
+papi-5.5.1/src/libpfm4/include/perfmon/perf_event.h
+papi-5.5.1/src/papi_bipartite.h
+papi-5.5.1/src/INSTALL
+papi-5.5.1/src/solaris-ultra.c
+papi-5.5.1/src/papi_internal.h
+papi-5.5.1/src/solaris-context.h
+papi-5.5.1/src/papi_events.xml
+papi-5.5.1/src/config.h.in
+papi-5.5.1/src/Rules.pfm4_pe
+papi-5.5.1/src/freebsd-memory.c
+papi-5.5.1/src/Makefile.inc
+papi-5.5.1/ChangeLogP501.txt
+papi-5.5.1/ChangeLogP410.txt
+papi-5.5.1/ChangeLogP520.txt
+papi-5.5.1/ChangeLogP541.txt
+papi-5.5.1/ChangeLogP421.txt
+papi-5.5.1/ChangeLogP543.txt
+papi-5.5.1/ChangeLogP440.txt
+papi-5.5.1/ChangeLogP540.txt
+papi-5.5.1/LICENSE.txt
+papi-5.5.1/README.md
+papi-5.5.1/ChangeLogP400.txt
+papi-5.5.1/man/
+papi-5.5.1/man/man1/
+papi-5.5.1/man/man1/papi_version.1
+papi-5.5.1/man/man1/papi_event_chooser.1
+papi-5.5.1/man/man1/papi_multiplex_cost.1
+papi-5.5.1/man/man1/papi_xml_event_info.1
+papi-5.5.1/man/man1/papi_decode.1
+papi-5.5.1/man/man1/papi_error_codes.1
+papi-5.5.1/man/man1/papi_hybrid_native_avail.1
+papi-5.5.1/man/man1/papi_clockres.1
+papi-5.5.1/man/man1/PAPI_derived_event_files.1
+papi-5.5.1/man/man1/papi_mem_info.1
+papi-5.5.1/man/man1/papi_native_avail.1
+papi-5.5.1/man/man1/papi_avail.1
+papi-5.5.1/man/man1/papi_component_avail.1
+papi-5.5.1/man/man1/papi_cost.1
+papi-5.5.1/man/man1/papi_command_line.1
+papi-5.5.1/man/Makefile
+papi-5.5.1/man/README
+papi-5.5.1/man/man3/
+papi-5.5.1/man/man3/PAPIF_set_event_domain.3
+papi-5.5.1/man/man3/PAPIF_remove_event.3
+papi-5.5.1/man/man3/PAPIF_is_initialized.3
+papi-5.5.1/man/man3/PAPI_cpu_option_t.3
+papi-5.5.1/man/man3/PAPI_shlib_info_t.3
+papi-5.5.1/man/man3/PAPIF_flops.3
+papi-5.5.1/man/man3/PAPI_set_debug.3
+papi-5.5.1/man/man3/PAPI_start.3
+papi-5.5.1/man/man3/PAPI_itimer_option_t.3
+papi-5.5.1/man/man3/PAPIF_get_granularity.3
+papi-5.5.1/man/man3/PAPI_remove_named_event.3
+papi-5.5.1/man/man3/PAPI_is_initialized.3
+papi-5.5.1/man/man3/PAPIF_num_hwctrs.3
+papi-5.5.1/man/man3/PAPI_exe_info_t.3
+papi-5.5.1/man/man3/PAPI_get_component_info.3
+papi-5.5.1/man/man3/PAPI_accum_counters.3
+papi-5.5.1/man/man3/PAPI_disable_component_by_name.3
+papi-5.5.1/man/man3/PAPI_read.3
+papi-5.5.1/man/man3/PAPI_set_granularity.3
+papi-5.5.1/man/man3/PAPIF_add_event.3
+papi-5.5.1/man/man3/PAPIF_set_cmp_granularity.3
+papi-5.5.1/man/man3/PAPIF_query_named_event.3
+papi-5.5.1/man/man3/PAPI_start_counters.3
+papi-5.5.1/man/man3/PAPI_thread_id.3
+papi-5.5.1/man/man3/PAPIF_start.3
+papi-5.5.1/man/man3/PAPI_preload_info_t.3
+papi-5.5.1/man/man3/PAPI_set_domain.3
+papi-5.5.1/man/man3/PAPI_hw_info_t.3
+papi-5.5.1/man/man3/PAPIF_accum_counters.3
+papi-5.5.1/man/man3/PAPI_lock.3
+papi-5.5.1/man/man3/PAPI_query_event.3
+papi-5.5.1/man/man3/PAPIF_read_ts.3
+papi-5.5.1/man/man3/PAPI_addr_range_option_t.3
+papi-5.5.1/man/man3/PAPI_event_code_to_name.3
+papi-5.5.1/man/man3/PAPI_all_thr_spec_t.3
+papi-5.5.1/man/man3/PAPI_attach_option_t.3
+papi-5.5.1/man/man3/PAPIF_unlock.3
+papi-5.5.1/man/man3/PAPI_list_events.3
+papi-5.5.1/man/man3/PAPIF_get_multiplex.3
+papi-5.5.1/man/man3/PAPIF_ipc.3
+papi-5.5.1/man/man3/PAPI_num_components.3
+papi-5.5.1/man/man3/PAPIF_read.3
+papi-5.5.1/man/man3/PAPI_add_events.3
+papi-5.5.1/man/man3/PAPIF_thread_init.3
+papi-5.5.1/man/man3/PAPI_flips.3
+papi-5.5.1/man/man3/PAPI_num_events.3
+papi-5.5.1/man/man3/PAPI_inherit_option_t.3
+papi-5.5.1/man/man3/PAPI_num_cmp_hwctrs.3
+papi-5.5.1/man/man3/PAPI_thread_init.3
+papi-5.5.1/man/man3/PAPI_get_virt_nsec.3
+papi-5.5.1/man/man3/PAPIF_get_virt_usec.3
+papi-5.5.1/man/man3/PAPIF_set_multiplex.3
+papi-5.5.1/man/man3/PAPI_unlock.3
+papi-5.5.1/man/man3/PAPI_enum_event.3
+papi-5.5.1/man/man3/PAPIF_num_cmp_hwctrs.3
+papi-5.5.1/man/man3/PAPIF_remove_events.3
+papi-5.5.1/man/man3/PAPI_get_opt.3
+papi-5.5.1/man/man3/PAPI_debug_option_t.3
+papi-5.5.1/man/man3/PAPI_get_multiplex.3
+papi-5.5.1/man/man3/PAPI_get_virt_usec.3
+papi-5.5.1/man/man3/PAPIF_shutdown.3
+papi-5.5.1/man/man3/PAPIF_lock.3
+papi-5.5.1/man/man3/PAPI_read_ts.3
+papi-5.5.1/man/man3/PAPIF_cleanup_eventset.3
+papi-5.5.1/man/man3/PAPI_get_real_usec.3
+papi-5.5.1/man/man3/PAPI_event_name_to_code.3
+papi-5.5.1/man/man3/PAPI_stop.3
+papi-5.5.1/man/man3/PAPI_component_info_t.3
+papi-5.5.1/man/man3/PAPI_remove_events.3
+papi-5.5.1/man/man3/PAPI_accum.3
+papi-5.5.1/man/man3/PAPIF_create_eventset.3
+papi-5.5.1/man/man3/PAPI_attach.3
+papi-5.5.1/man/man3/PAPIF_destroy_eventset.3
+papi-5.5.1/man/man3/PAPIF_state.3
+papi-5.5.1/man/man3/PAPIF_get_real_nsec.3
+papi-5.5.1/man/man3/PAPIF_query_event.3
+papi-5.5.1/man/man3/PAPI_mh_cache_info_t.3
+papi-5.5.1/man/man3/PAPI_get_real_nsec.3
+papi-5.5.1/man/man3/PAPIF_unregister_thread.3
+papi-5.5.1/man/man3/PAPI_get_component_index.3
+papi-5.5.1/man/man3/PAPI_granularity_option_t.3
+papi-5.5.1/man/man3/PAPIF_get_real_cyc.3
+papi-5.5.1/man/man3/PAPIF_num_events.3
+papi-5.5.1/man/man3/PAPIF_set_inherit.3
+papi-5.5.1/man/man3/PAPI_shutdown.3
+papi-5.5.1/man/man3/PAPI_query_named_event.3
+papi-5.5.1/man/man3/PAPI_add_named_event.3
+papi-5.5.1/man/man3/PAPI_list_threads.3
+papi-5.5.1/man/man3/PAPIF_reset.3
+papi-5.5.1/man/man3/PAPI_dmem_info_t.3
+papi-5.5.1/man/man3/PAPI_read_counters.3
+papi-5.5.1/man/man3/PAPI_get_cmp_opt.3
+papi-5.5.1/man/man3/PAPI_sprofil.3
+papi-5.5.1/man/man3/PAPI_set_cmp_domain.3
+papi-5.5.1/man/man3/PAPI_mh_tlb_info_t.3
+papi-5.5.1/man/man3/PAPI_sprofil_t.3
+papi-5.5.1/man/man3/PAPIF_set_domain.3
+papi-5.5.1/man/man3/PAPIF_perror.3
+papi-5.5.1/man/man3/PAPI_get_virt_cyc.3
+papi-5.5.1/man/man3/PAPI_reset.3
+papi-5.5.1/man/man3/PAPI_detach.3
+papi-5.5.1/man/man3/PAPIF_register_thread.3
+papi-5.5.1/man/man3/PAPI_get_hardware_info.3
+papi-5.5.1/man/man3/PAPIF_assign_eventset_component.3
+papi-5.5.1/man/man3/PAPIF_num_counters.3
+papi-5.5.1/man/man3/PAPI_cleanup_eventset.3
+papi-5.5.1/man/man3/PAPI_create_eventset.3
+papi-5.5.1/man/man3/PAPI_get_event_info.3
+papi-5.5.1/man/man3/PAPIF_get_virt_cyc.3
+papi-5.5.1/man/man3/PAPI_set_cmp_granularity.3
+papi-5.5.1/man/man3/PAPIF_event_code_to_name.3
+papi-5.5.1/man/man3/PAPI_address_map_t.3
+papi-5.5.1/man/man3/PAPI_domain_option_t.3
+papi-5.5.1/man/man3/PAPI_multiplex_option_t.3
+papi-5.5.1/man/man3/PAPI_get_shared_lib_info.3
+papi-5.5.1/man/man3/PAPI_set_multiplex.3
+papi-5.5.1/man/man3/PAPIF_write.3
+papi-5.5.1/man/man3/PAPIF_epc.3
+papi-5.5.1/man/man3/PAPI_event_info_t.3
+papi-5.5.1/man/man3/PAPI_library_init.3
+papi-5.5.1/man/man3/PAPI_num_hwctrs.3
+papi-5.5.1/man/man3/PAPI_remove_event.3
+papi-5.5.1/man/man3/PAPIF_flips.3
+papi-5.5.1/man/man3/PAPIF_stop.3
+papi-5.5.1/man/man3/PAPI_option_t.3
+papi-5.5.1/man/man3/PAPI_profil.3
+papi-5.5.1/man/man3/PAPI_state.3
+papi-5.5.1/man/man3/PAPIF_get_clockrate.3
+papi-5.5.1/man/man3/PAPI_assign_eventset_component.3
+papi-5.5.1/man/man3/PAPI_disable_component.3
+papi-5.5.1/man/man3/PAPIF_get_preload.3
+papi-5.5.1/man/man3/PAPI_num_counters.3
+papi-5.5.1/man/man3/PAPIF_get_hardware_info.3
+papi-5.5.1/man/man3/PAPI_get_overflow_event_index.3
+papi-5.5.1/man/man3/PAPIF_set_cmp_domain.3
+papi-5.5.1/man/man3/PAPI_get_eventset_component.3
+papi-5.5.1/man/man3/PAPI_multiplex_init.3
+papi-5.5.1/man/man3/PAPIF_get_real_usec.3
+papi-5.5.1/man/man3/PAPI_get_dmem_info.3
+papi-5.5.1/man/man3/PAPI_unregister_thread.3
+papi-5.5.1/man/man3/PAPIF_library_init.3
+papi-5.5.1/man/man3/PAPIF_accum.3
+papi-5.5.1/man/man3/PAPI_register_thread.3
+papi-5.5.1/man/man3/PAPI_get_event_component.3
+papi-5.5.1/man/man3/PAPIF_get_exe_info.3
+papi-5.5.1/man/man3/PAPI_set_opt.3
+papi-5.5.1/man/man3/PAPI_perror.3
+papi-5.5.1/man/man3/PAPIF_set_granularity.3
+papi-5.5.1/man/man3/PAPIF_multiplex_init.3
+papi-5.5.1/man/man3/PAPI_enum_cmp_event.3
+papi-5.5.1/man/man3/PAPI_add_event.3
+papi-5.5.1/man/man3/PAPI_overflow.3
+papi-5.5.1/man/man3/PAPI_destroy_eventset.3
+papi-5.5.1/man/man3/PAPIF_stop_counters.3
+papi-5.5.1/man/man3/PAPIF_add_events.3
+papi-5.5.1/man/man3/PAPI_get_thr_specific.3
+papi-5.5.1/man/man3/PAPI_mh_info_t.3
+papi-5.5.1/man/man3/PAPI_mpx_info_t.3
+papi-5.5.1/man/man3/PAPIF_set_debug.3
+papi-5.5.1/man/man3/PAPI_write.3
+papi-5.5.1/man/man3/PAPI_ipc.3
+papi-5.5.1/man/man3/PAPIF_thread_id.3
+papi-5.5.1/man/man3/PAPIF_add_named_event.3
+papi-5.5.1/man/man3/PAPI_flops.3
+papi-5.5.1/man/man3/PAPIF_get_dmem_info.3
+papi-5.5.1/man/man3/PAPI_epc.3
+papi-5.5.1/man/man3/PAPI_stop_counters.3
+papi-5.5.1/man/man3/PAPIF_remove_named_event.3
+papi-5.5.1/man/man3/PAPIF_event_name_to_code.3
+papi-5.5.1/man/man3/PAPI_set_thr_specific.3
+papi-5.5.1/man/man3/PAPIF_start_counters.3
+papi-5.5.1/man/man3/PAPI_get_executable_info.3
+papi-5.5.1/man/man3/PAPI_mh_level_t.3
+papi-5.5.1/man/man3/PAPI_strerror.3
+papi-5.5.1/man/man3/PAPI_get_real_cyc.3
+papi-5.5.1/man/man3/PAPIF_get_domain.3
+papi-5.5.1/man/man3/PAPIF_enum_event.3
+papi-5.5.1/man/man3/PAPIF_get_event_info.3
+papi-5.5.1/INSTALL.txt
+papi-5.5.1/ChangeLogP511.txt
+papi-5.5.1/ChangeLogP532.txt
+papi-5.5.1/ChangeLogP551.txt
+papi-5.5.1/ChangeLogP414.txt
+papi-5.5.1/doc/
+papi-5.5.1/doc/Doxyfile-html
+papi-5.5.1/doc/Makefile
+papi-5.5.1/doc/Doxyfile-man1
+papi-5.5.1/doc/doxygen_procedure.txt
+papi-5.5.1/doc/Doxyfile-man3
+papi-5.5.1/doc/Doxyfile-common
+papi-5.5.1/RELEASENOTES.txt
+papi-5.5.1/papi.spec
+papi-5.5.1/ChangeLogP412.txt
+papi-5.5.1/ChangeLogP530.txt
+papi-5.5.1/ChangeLogP4121.txt
+papi-5.5.1/README
+papi-5.5.1/ChangeLogP413.txt
+papi-5.5.1/ChangeLogP550.txt
+papi-5.5.1/ChangeLogP411.txt
+papi-5.5.1/ChangeLogP420.txt
+checking for architecture... x86_64
+checking for OS... linux
+checking for OS version... 3.10.0-693.2.2.el7.x86_64
+checking for user events... checking for static user events build... 
+checking for perf_event workaround level... autodetect
+checking for if MIC should be used... no
+checking for xlc... no
+checking for icc... icc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether icc accepts -g... yes
+checking for icc option to accept ANSI C... none needed
+checking for xlf... no
+checking for ifort... ifort
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether ifort accepts -g... yes
+checking for mpicc... mpicc
+checking for gawk... gawk
+checking how to run the C preprocessor... icc -diag-disable 188,869,271 -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for ranlib... ranlib
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for inline... inline
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking c_asm.h usability... no
+checking c_asm.h presence... no
+checking for c_asm.h... no
+checking intrinsics.h usability... no
+checking intrinsics.h presence... no
+checking for intrinsics.h... no
+checking mach/mach_time.h usability... no
+checking mach/mach_time.h presence... no
+checking for mach/mach_time.h... no
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking for gethrtime... no
+checking for read_real_time... no
+checking for time_base_to_time... no
+checking for clock_gettime... yes
+checking for mach_absolute_time... no
+checking for sched_getcpu... yes
+checking for dlopen and dlerror symbols in base system... found
+checking for debug build... 
+checking for CPU type... x86
+checking for ffsll... yes
+checking for working gettid... no
+checking for working syscall(SYS_gettid)... yes
+checking for working MMTIMER... no
+checking for working CLOCK_REALTIME_HR POSIX 1b timer... no
+checking for working CLOCK_REALTIME POSIX 1b timer... yes
+checking for real time clock or cycle counter... checking for working __thread... yes
+checking for high performance thread local storage... __thread
+checking for working CLOCK_THREAD_CPUTIME_ID POSIX 1b timer... yes
+checking for thread virtual clock or cycle counter... clock_thread_cputime_id
+checking for which libraries to build... shared static
+checking for link test cases with shared library... 
+checking for /sys/class/perfctr... no
+checking for /dev/perfctr... no
+checking for /sys/kernel/perfmon/version... no
+checking for /proc/perfmon... no
+checking for /proc/sys/kernel/perf_event_paranoid... yes
+checking for libpfm4/include/perfmon/perf_event.h... yes
+checking platform... linux-pe
+checking for components to build... perf_event perf_event_uncore
+configure: Compiling genpapifdef with icc -diag-disable 188,869,271
+configure: Generating fpapi.h
+configure: Generating f77papi.h
+configure: Generating f90papi.h
+configure: Rules.pfm4_pe will be included in the generated Makefile
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating papi.pc
+config.status: creating components/Makefile_comp_tests.target
+config.status: creating testlib/Makefile.target
+config.status: creating ctests/Makefile.target
+config.status: creating ftests/Makefile.target
+config.status: creating config.h
+config.status: config.h is unchanged
+Host architecture   : Linux with perf_event kernel support and libpfm4
+Host CPU component  : perf_event
+Installation DESTDIR: 
+Installation PREFIX : /gpfs/hpchome/hesti/profilingexamples/papi/install
+Installation EPREFIX: /gpfs/hpchome/hesti/profilingexamples/papi/install
+Installation INCDIR : /gpfs/hpchome/hesti/profilingexamples/papi/install/include
+Installation LIBDIR : /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+Installation BINDIR : /gpfs/hpchome/hesti/profilingexamples/papi/install/bin
+Installation MANDIR : /gpfs/hpchome/hesti/profilingexamples/papi/install/man
+Installation DOCDIR : 
+Installation DATADIR: /gpfs/hpchome/hesti/profilingexamples/papi/install/share/papi
+
+sh papi_events_table.sh papi_events.csv > papi_events_table.h
+icc -diag-disable 188,869,271 -E -DFORTRANUNDERSCORE papi_fwrappers.c > papi_fwrappers_.c 
+make -C /gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/libpfm4 ARCH="x86_64" DESTDIR= PREFIX=/gpfs/hpchome/hesti/profilingexamples/papi/install install_prefix=/gpfs/hpchome/hesti/profilingexamples/papi/install LIBDIR=/gpfs/hpchome/hesti/profilingexamples/papi/install/lib INCDIR=/gpfs/hpchome/hesti/profilingexamples/papi/install/include MANDIR=/gpfs/hpchome/hesti/profilingexamples/papi/install/man install
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/libpfm4'
+installing in
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/libpfm4/lib'
+building: libpfm.a libpfm.so.4.8.0
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+install -m 644 libpfm.a /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+install libpfm.so.4.8.0 /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+cd /gpfs/hpchome/hesti/profilingexamples/papi/install/lib; ln -sf libpfm.so.4.8.0 libpfm.so.4
+cd /gpfs/hpchome/hesti/profilingexamples/papi/install/lib; ln -sf libpfm.so.4.8.0 libpfm.so
+ldconfig
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/libpfm4/lib'
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/libpfm4'
+install -d /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+install -d /gpfs/hpchome/hesti/profilingexamples/papi/install/share/papi
+cp -f ./papi_events.csv /gpfs/hpchome/hesti/profilingexamples/papi/install/share/papi
+Headers (INCDIR) being installed in: "/gpfs/hpchome/hesti/profilingexamples/papi/install/include"
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/include
+chmod go+rx /gpfs/hpchome/hesti/profilingexamples/papi/install/include
+cp fpapi.h f77papi.h f90papi.h papi.h papiStdEventDefs.h /gpfs/hpchome/hesti/profilingexamples/papi/install/include
+cd /gpfs/hpchome/hesti/profilingexamples/papi/install/include; chmod go+r fpapi.h f77papi.h f90papi.h papi.h papiStdEventDefs.h
+Libraries (LIBDIR) being installed in: "/gpfs/hpchome/hesti/profilingexamples/papi/install/lib"
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+chmod go+rx /gpfs/hpchome/hesti/profilingexamples/papi/install/lib
+cd ../man && make DOCDIR= MANDIR=/gpfs/hpchome/hesti/profilingexamples/papi/install/man install
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/man'
+Man pages (MANDIR) being installed in: "/gpfs/hpchome/hesti/profilingexamples/papi/install/man"
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man3
+chmod go+rx /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man3
+cp man3/PAPI*.3 /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man3
+chmod go+r /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man3/PAPI*.3
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man1
+chmod go+rx /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man1
+cp man1/*.1 /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man1
+chmod go+r /gpfs/hpchome/hesti/profilingexamples/papi/install/man/man1/*.1
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/man'
+cd utils; make BINDIR="/gpfs/hpchome/hesti/profilingexamples/papi/install/bin" CC="icc -diag-disable 188,869,271" CC_R="icc -diag-disable 188,869,271 -pthread" CFLAGS="-I.. -g -DSTATIC_PAPI_EVENTS_TABLE -DPEINCLUDE=\"libpfm4/include/perfmon/perf_event.h\" -D_REENTRANT -D_GNU_SOURCE -DUSE_COMPILER_TLS  -Ilibpfm4/include -fvisibility=hidden " TOPTFLAGS="-O0" SMPCFLGS="" OMPCFLGS="-openmp" NOOPT="" LDFLAGS=" " LIBRARY="../libpapi.a" install
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/utils'
+Utilities (BINDIR) being installed in: "/gpfs/hpchome/hesti/profilingexamples/papi/install/bin"
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/bin
+chmod go+rx /gpfs/hpchome/hesti/profilingexamples/papi/install/bin
+find . -perm -100 -type f -exec cp {} /gpfs/hpchome/hesti/profilingexamples/papi/install/bin \;
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/papi/papi-5.5.1/src/utils'
+pkcongfig being installed in: "/gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig"
+mkdir -p /gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig
+chmod go+rx /gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig
+cp papi.pc /gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig/papi-5.5.1.0.pc
+cd /gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig; ln -sf papi-5.5.1.0.pc papi-5.5.1.pc;
+cd /gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig; ln -sf papi-5.5.1.0.pc papi-5.pc;
+cd /gpfs/hpchome/hesti/profilingexamples/papi/install/lib/pkgconfig; ln -sf papi-5.5.1.0.pc papi.pc;
+ploticus242/src/
+ploticus242/src/ttest.c
+ploticus242/src/proc_pvalue.c
+ploticus242/src/proc_breakaxis.c
+ploticus242/src/proc_curvefit.c-
+ploticus242/src/localef.c
+ploticus242/src/nearest.c
+ploticus242/src/goqp
+ploticus242/src/proc_lineplot.c-
+ploticus242/src/clickmap.c
+ploticus242/src/value.c
+ploticus242/src/proc_tree.c
+ploticus242/src/GPL.txt
+ploticus242/src/proc_categories.c
+ploticus242/src/gdfontmb.h
+ploticus242/src/Copyright
+ploticus242/src/gd_io_dp.c
+ploticus242/src/testsup.c
+ploticus242/src/proc_bars.c
+ploticus242/src/proc_curvefit.c
+ploticus242/src/gdfontt.c
+ploticus242/src/execline.c
+ploticus242/src/gdfontl.h
+ploticus242/src/pcode.c
+ploticus242/src/proc_scatterplot.c-
+ploticus242/src/proc_legend.c
+ploticus242/src/proc_annotate.c
+ploticus242/src/plg.h
+ploticus242/src/proc_settings.c
+ploticus242/src/gd16/
+ploticus242/src/gd16/gd.h
+ploticus242/src/gd16/gd_io.h
+ploticus242/src/shell.c
+ploticus242/src/reslimits.c
+ploticus242/src/proc_rect.c
+ploticus242/src/proc_rangesweep.c
+ploticus242/src/parse.c
+ploticus242/src/ps.c
+ploticus242/src/dbfunc.c
+ploticus242/src/functions.c
+ploticus242/src/select.c
+ploticus242/src/proc_pie.c
+ploticus242/src/plvalue_subst.c
+ploticus242/src/gd_io_file.c
+ploticus242/src/stock.htm
+ploticus242/src/arrow.c
+ploticus242/src/NOTES_sharedlib_python
+ploticus242/src/init.c
+ploticus242/src/README
+ploticus242/src/pl.c
+ploticus242/src/proc_tabulate.c
+ploticus242/src/gd_png.c
+ploticus242/src/gdfontg.c
+ploticus242/src/stub.c
+ploticus242/src/gd13.c
+ploticus242/src/tdhkit.h
+ploticus242/src/pl.h+
+ploticus242/src/datetime.c-
+ploticus242/src/proc_legendentry.c
+ploticus242/src/plhead.c
+ploticus242/src/cats.c
+ploticus242/src/smoothfit.c
+ploticus242/src/block.c
+ploticus242/src/svg.c
+ploticus242/src/proc_getdata.c
+ploticus242/src/condex.c
+ploticus242/src/err.c
+ploticus242/src/fieldnames.c
+ploticus242/src/proc_lineplot.c
+ploticus242/src/api.c
+ploticus242/src/gdfonts.h
+ploticus242/src/secondaryops.c
+ploticus242/src/grgd.c
+ploticus242/src/x11.c
+ploticus242/src/glroutines.c
+ploticus242/src/Makefile_orig
+ploticus242/src/details.c
+ploticus242/src/proc_symbol.c
+ploticus242/src/test.pl
+ploticus242/src/proc_scatterplot.c
+ploticus242/src/proc_drawcommands.c
+ploticus242/src/execscriptfile.c
+ploticus242/src/winscale.c
+ploticus242/src/variable.c
+ploticus242/src/proc_catlines.c
+ploticus242/src/tdhkit.c
+ploticus242/src/proc_processdata.c
+ploticus242/src/proc_image.c
+ploticus242/src/process_arg.c
+ploticus242/src/proc_vector.c
+ploticus242/src/proc_areadef.c
+ploticus242/src/proc_boxplot.c
+ploticus242/src/gd13/
+ploticus242/src/gd13/gd.h
+ploticus242/src/datasets.c
+ploticus242/src/proc_vector.c-
+ploticus242/src/gd_io.c
+ploticus242/src/.sh_history
+ploticus242/src/devstuff.c
+ploticus242/src/pl.h
+ploticus242/src/proc_venndisk.c
+ploticus242/src/apitest.c
+ploticus242/src/dbinterface.c
+ploticus242/src/libploticus.h
+ploticus242/src/proc_bars.c-
+ploticus242/src/color.c
+ploticus242/src/pixpt.h
+ploticus242/src/proc_axis.c
+ploticus242/src/times.c
+ploticus242/src/Makefile
+ploticus242/src/plg.c
+ploticus242/src/proc_page.c
+ploticus242/src/preliminaries.c
+ploticus242/src/gd16.c
+ploticus242/src/custom.c
+ploticus242/src/special_chars.h
+ploticus242/src/gdfontt.h
+ploticus242/src/proc_line.c
+ploticus242/src/mkapi
+ploticus242/src/autorange.c
+ploticus242/src/lib.c
+ploticus242/src/proc_print.c
+ploticus242/src/sinterp.c
+ploticus242/src/value_subst.c
+ploticus242/src/interact.c
+ploticus242/src/swf.c
+ploticus242/src/gdfontmb.c
+ploticus242/src/proc_usedata.c
+ploticus242/src/gd_io.h
+ploticus242/src/units.c
+ploticus242/src/stock.csv
+ploticus242/src/gdfontg.h
+ploticus242/src/gdfonts.c
+ploticus242/src/mark.c
+ploticus242/src/x11shades.h
+ploticus242/src/dates.c
+ploticus242/src/gdfontl.c
+ploticus242/src/lineclip.c
+ploticus242/pltestsuite/
+ploticus242/pltestsuite/sar-cpu.dat
+ploticus242/pltestsuite/testpf_pie
+ploticus242/pltestsuite/testpf_draw
+ploticus242/pltestsuite/data13
+ploticus242/pltestsuite/data1
+ploticus242/pltestsuite/stock2.htm
+ploticus242/pltestsuite/rangesweep2_dostext.htm
+ploticus242/pltestsuite/pie1.htm
+ploticus242/pltestsuite/ycase.newick
+ploticus242/pltestsuite/run_prefabs_test
+ploticus242/pltestsuite/bars3.htm
+ploticus242/pltestsuite/heatmap3.htm
+ploticus242/pltestsuite/data20
+ploticus242/pltestsuite/devol.htm
+ploticus242/pltestsuite/hgb.dat
+ploticus242/pltestsuite/plconfig.spanish
+ploticus242/pltestsuite/testpf_heatmap
+ploticus242/pltestsuite/testpf_multidist
+ploticus242/pltestsuite/data2
+ploticus242/pltestsuite/data5
+ploticus242/pltestsuite/vector1.htm
+ploticus242/pltestsuite/sar-cpu.htm
+ploticus242/pltestsuite/bigcsv.pl
+ploticus242/pltestsuite/testpf_compare
+ploticus242/pltestsuite/windbarbs.htm
+ploticus242/pltestsuite/hitcount.dat
+ploticus242/pltestsuite/data27
+ploticus242/pltestsuite/csmap.out
+ploticus242/pltestsuite/td.htm
+ploticus242/pltestsuite/snpmap.dat
+ploticus242/pltestsuite/README
+ploticus242/pltestsuite/kmslide.htm
+ploticus242/pltestsuite/venn.htm
+ploticus242/pltestsuite/catlines1.htm
+ploticus242/pltestsuite/dtfut.htm
+ploticus242/pltestsuite/data7
+ploticus242/pltestsuite/errbar1.htm
+ploticus242/pltestsuite/data14
+ploticus242/pltestsuite/wind.csv
+ploticus242/pltestsuite/vf.dat
+ploticus242/pltestsuite/curve1.dat
+ploticus242/pltestsuite/scatterplot10.htm
+ploticus242/pltestsuite/data16
+ploticus242/pltestsuite/run_prefabs_test.bat
+ploticus242/pltestsuite/vermonth.tab
+ploticus242/pltestsuite/legends232.htm
+ploticus242/pltestsuite/timeline2.htm
+ploticus242/pltestsuite/data9
+ploticus242/pltestsuite/testpf_stack
+ploticus242/pltestsuite/tree1.htm
+ploticus242/pltestsuite/drawcom.htm
+ploticus242/pltestsuite/data4
+ploticus242/pltestsuite/data6b
+ploticus242/pltestsuite/devol.dat
+ploticus242/pltestsuite/colorgrid2.htm
+ploticus242/pltestsuite/hitcount3.htm
+ploticus242/pltestsuite/data24
+ploticus242/pltestsuite/quarters.htm
+ploticus242/pltestsuite/errbar5.htm
+ploticus242/pltestsuite/data23
+ploticus242/pltestsuite/testpf_cumufrac
+ploticus242/pltestsuite/data12
+ploticus242/pltestsuite/data10
+ploticus242/pltestsuite/scatterplot10.dat
+ploticus242/pltestsuite/propbars1.htm
+ploticus242/pltestsuite/p241.eps
+ploticus242/pltestsuite/drawcom.dcm
+ploticus242/pltestsuite/testpf_lines
+ploticus242/pltestsuite/lineplot4.htm
+ploticus242/pltestsuite/data18
+ploticus242/pltestsuite/run_script_test.bat
+ploticus242/pltestsuite/testpf_scat
+ploticus242/pltestsuite/testpf_vbars
+ploticus242/pltestsuite/dexa.dat
+ploticus242/pltestsuite/data28
+ploticus242/pltestsuite/data15
+ploticus242/pltestsuite/testpf_dist
+ploticus242/pltestsuite/data10h
+ploticus242/pltestsuite/supstubs.htm
+ploticus242/pltestsuite/cumufrac.dat
+ploticus242/pltestsuite/data25
+ploticus242/pltestsuite/testpf_chron
+ploticus242/pltestsuite/data21
+ploticus242/pltestsuite/annot
+ploticus242/pltestsuite/run_script_test
+ploticus242/pltestsuite/data8
+ploticus242/pltestsuite/data17
+ploticus242/pltestsuite/colorgrid.htm
+ploticus242/pltestsuite/scatterplot4.htm
+ploticus242/pltestsuite/Makefile
+ploticus242/pltestsuite/data26
+ploticus242/pltestsuite/run_all_scripts
+ploticus242/pltestsuite/data3
+ploticus242/pltestsuite/data6
+ploticus242/pltestsuite/data22
+ploticus242/pltestsuite/Diag.out
+ploticus242/pltestsuite/distrib.htm
+ploticus242/pltestsuite/timely.dat
+ploticus242/pltestsuite/strainz.dat
+ploticus242/pltestsuite/testpf_vdist
+ploticus242/pltestsuite/data11
+ploticus242/pltestsuite/dtfut.dat
+ploticus242/pltestsuite/stock.csv
+ploticus242/pltestsuite/timely.htm
+ploticus242/pltestsuite/annot2.htm
+ploticus242/pltestsuite/lineplot5.htm
+ploticus242/pltestsuite/lineplot20.htm
+ploticus242/pltestsuite/data19
+ploticus242/prefabs/
+ploticus242/prefabs/heatmap.pl
+ploticus242/prefabs/chunk_area
+ploticus242/prefabs/chron.pl-
+ploticus242/prefabs/lines.pl
+ploticus242/prefabs/chunk_heatmapfilter
+ploticus242/prefabs/chunk_title
+ploticus242/prefabs/chunk_logstubs
+ploticus242/prefabs/draw.pl
+ploticus242/prefabs/README
+ploticus242/prefabs/processdata.pl
+ploticus242/prefabs/chunk_doheatmap
+ploticus242/prefabs/vbars.pl
+ploticus242/prefabs/heatmap.pl-
+ploticus242/prefabs/chunk_stackareafilter
+ploticus242/prefabs/cumufrac.pl
+ploticus242/prefabs/compare.pl
+ploticus242/prefabs/stack.pl
+ploticus242/prefabs/chunk_vdistfilter
+ploticus242/prefabs/chron.pl--
+ploticus242/prefabs/pie.pl
+ploticus242/prefabs/chunk_yaxis
+ploticus242/prefabs/chunk_read
+ploticus242/prefabs/chunk_chronfilter
+ploticus242/prefabs/scat.pl
+ploticus242/prefabs/chron.pl
+ploticus242/prefabs/dist.pl
+ploticus242/prefabs/vdist.pl
+ploticus242/prefabs/SCP
+ploticus242/prefabs/chunk_logtics
+ploticus242/prefabs/chunk_setstd
+ploticus242/prefabs/multidist.pl
+ploticus242/prefabs/chunk_xaxis
+gcc pl.o proc_annotate.o proc_areadef.o proc_axis.o proc_bars.o proc_rect.o proc_breakaxis.o proc_categories.o proc_curvefit.o proc_settings.o proc_drawcommands.o proc_getdata.o proc_image.o proc_legend.o proc_legendentry.o proc_line.o proc_lineplot.o proc_page.o proc_pie.o proc_print.o proc_boxplot.o proc_rangesweep.o proc_usedata.o proc_pvalue.o proc_scatterplot.o proc_vector.o proc_symbol.o proc_processdata.o proc_tabulate.o proc_venndisk.o clickmap.o proc_tree.o proc_catlines.o plhead.o execscriptfile.o execline.o lib.o details.o parse.o units.o preliminaries.o process_arg.o plvalue_subst.o cats.o fieldnames.o autorange.o nearest.o select.o datasets.o color.o plg.o init.o arrow.o mark.o block.o pcode.o ps.o svg.o swf.o stub.o winscale.o lineclip.o smoothfit.o ttest.o condex.o dates.o dbinterface.o err.o functions.o glroutines.o reslimits.o secondaryops.o shell.o sinterp.o tdhkit.o times.o value.o value_subst.o variable.o custom.o  grgd16.o devstuff16.o gd16.o gd_io.o gd_io_dp.o gd_io_file.o gd_png.o  gdfontg.o gdfontl.o gdfontmb.o gdfonts.o gdfontt.o  -L/storage/software/libpng-1.5.10/lib -lpng -L/storage/software/zlib-1.2.6/lib -lz  -lm    -o pl
+cp pl /gpfs/hpchome/hesti/profilingexamples/ploticus/install/bin
+Making distclean in src
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+test -z "libipm.la libipmf.la" || rm -f libipm.la libipmf.la
+rm -f ./so_locations
+rm -rf .libs _libs
+rm -f GEN.*
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+Making distclean in bin
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/bin'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "make_wrappers" || rm -f make_wrappers
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/bin'
+Making distclean in etc
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/etc'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f Makefile
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/etc'
+Making distclean in test
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test'
+Making distclean in test.allgather
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.allgather'
+ rm -f allgather allgather.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.allgather'
+Making distclean in test.allgatherv
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.allgatherv'
+ rm -f allgatherv allgatherv.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.allgatherv'
+Making distclean in test.allreduce
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.allreduce'
+ rm -f allreduce allreduce.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.allreduce'
+Making distclean in test.alltoall
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.alltoall'
+ rm -f alltoall alltoall.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.alltoall'
+Making distclean in test.alltoallv
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.alltoallv'
+ rm -f alltoallv alltoallv.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.alltoallv'
+Making distclean in test.bcast
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.bcast'
+ rm -f bcast bcast.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.bcast'
+Making distclean in test.fhello
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.fhello'
+ rm -f fhello fhello.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.fhello'
+Making distclean in test.forever
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.forever'
+ rm -f forever forever.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.forever'
+Making distclean in test.fork
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.fork'
+ rm -f fork fork.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.fork'
+Making distclean in test.fring
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.fring'
+ rm -f fring fring.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.fring'
+Making distclean in test.gather
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.gather'
+ rm -f gather gather.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.gather'
+Making distclean in test.gatherv
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.gatherv'
+ rm -f gatherv gatherv.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.gatherv'
+Making distclean in test.hello
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.hello'
+ rm -f hello hello.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.hello'
+Making distclean in test.jacobi
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.jacobi'
+ rm -f jacobi jacobi.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.jacobi'
+Making distclean in test.keyhist
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.keyhist'
+ rm -f keyhist keyhist.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.keyhist'
+Making distclean in test.pmon
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.pmon'
+ rm -f pmon pmon.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.pmon'
+Making distclean in test.pcontrol
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.pcontrol'
+ rm -f pcontrol pcontrol.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.pcontrol'
+Making distclean in test.posixio-helloworld
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.posixio-helloworld'
+ rm -f posixio-helloworld posixio-helloworld.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.posixio-helloworld'
+Making distclean in test.posixio-read
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.posixio-read'
+ rm -f posix-read posix-read.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.posixio-read'
+Making distclean in test.simple_mpi
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.simple_mpi'
+ rm -f simple_mpi simple_mpi.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.simple_mpi'
+Making distclean in test.status_ignore
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.status_ignore'
+ rm -f status_ignore status_ignore.ipm
+rm -rf .libs _libs
+rm -f *keyhist.*.txt
+rm -f compat.xml.map.txt
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test/test.status_ignore'
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test'
+rm -f Makefile
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/test'
+Making distclean in utils
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/utils'
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f Makefile
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/utils'
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM'
+rm -rf .libs _libs
+rm -f *.lo
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f config.h stamp-h1
+rm -f libtool config.lt
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -f Makefile
+libtoolize: putting auxiliary files in `.'.
+libtoolize: copying file `./ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+libtoolize: copying file `m4/ltoptions.m4'
+libtoolize: copying file `m4/ltsugar.m4'
+libtoolize: copying file `m4/ltversion.m4'
+libtoolize: copying file `m4/lt~obsolete.m4'
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking detecting IPM host... unknown 
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for mpicc... mpicc
+checking for MPI_Init... yes
+checking for mpi.h... yes
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking for mpif77... mpif77
+checking for mpif.h... yes
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran compiler... yes
+checking whether gfortran accepts -g... yes
+checking for mpif90... mpif90
+checking for mpif.h... yes
+checking whether gcc and cc understand -c and -o together... yes
+checking underscores for F77 objects...  -funderscore_post 
+checking checking MPI_STATUS_COUNT... count_lo 
+checking how to run the C preprocessor... mpicc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for MPI_Status_c2f... yes
+checking for MPI_Status_f2c... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by mpicc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from mpicc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... (cached) yes
+checking for objdir... .libs
+checking if mpicc supports -fno-rtti -fno-exceptions... no
+checking for mpicc option to produce PIC... -fPIC -DPIC
+checking if mpicc PIC flag -fPIC -DPIC works... yes
+checking if mpicc static flag -static works... no
+checking if mpicc supports -c -o file.o... yes
+checking if mpicc supports -c -o file.o... (cached) yes
+checking whether the mpicc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for mpif77 option to produce PIC... -fPIC
+checking if mpif77 PIC flag -fPIC works... yes
+checking if mpif77 static flag -static works... no
+checking if mpif77 supports -c -o file.o... yes
+checking if mpif77 supports -c -o file.o... (cached) yes
+checking whether the mpif77 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for mpif90 option to produce PIC... -fPIC
+checking if mpif90 PIC flag -fPIC works... yes
+checking if mpif90 static flag -static works... no
+checking if mpif90 supports -c -o file.o... yes
+checking if mpif90 supports -c -o file.o... (cached) yes
+checking whether the mpif90 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+papi: /gpfs/hpchome/hesti/profilingexamples/papi/install
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating bin/Makefile
+config.status: creating etc/Makefile
+config.status: creating src/Makefile
+config.status: creating utils/Makefile
+config.status: creating test/Makefile
+config.status: creating test/test.allgather/Makefile
+config.status: creating test/test.allgatherv/Makefile
+config.status: creating test/test.allreduce/Makefile
+config.status: creating test/test.alltoall/Makefile
+config.status: creating test/test.alltoallv/Makefile
+config.status: creating test/test.bcast/Makefile
+config.status: creating test/test.fhello/Makefile
+config.status: creating test/test.forever/Makefile
+config.status: creating test/test.fork/Makefile
+config.status: creating test/test.fring/Makefile
+config.status: creating test/test.gather/Makefile
+config.status: creating test/test.gatherv/Makefile
+config.status: creating test/test.hello/Makefile
+config.status: creating test/test.jacobi/Makefile
+config.status: creating test/test.keyhist/Makefile
+config.status: creating test/test.omp/Makefile
+config.status: creating test/test.pcontrol/Makefile
+config.status: creating test/test.pmon/Makefile
+config.status: creating test/test.posixio-helloworld/Makefile
+config.status: creating test/test.posixio-read/Makefile
+config.status: creating test/test.simple_mpi/Makefile
+config.status: creating test/test.status_ignore/Makefile
+config.status: creating bin/make_wrappers
+config.status: creating config.h
+config.status: executing libtool commands
+################################################
+ IPM configuration:
+     MPI profiling enabled       : yes
+     POSIX-I/O profiling enabled : no
+     PAPI enabled                : yes
+     CFLAGS                      : -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX
+     LDFLAGS                     : 
+     LIBS                        :  -lpapi
+     MPI_STATUS_COUNT            : count_lo
+     Fortran underscore          :  -funderscore_post 
+     Building IPM Parser         : no
+
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /gpfs/hpchome/hesti/profilingexamples/ipm/IPM/missing autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM'
+Making all in src
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-calltable.lo `test -f 'calltable.c' || echo './'`calltable.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c calltable.c  -fPIC -DPIC -o .libs/libipm_la-calltable.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c calltable.c -o libipm_la-calltable.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-hashkey.lo `test -f 'hashkey.c' || echo './'`hashkey.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c hashkey.c  -fPIC -DPIC -o .libs/libipm_la-hashkey.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c hashkey.c -o libipm_la-hashkey.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-hashtable.lo `test -f 'hashtable.c' || echo './'`hashtable.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c hashtable.c  -fPIC -DPIC -o .libs/libipm_la-hashtable.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c hashtable.c -o libipm_la-hashtable.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-ipm_core.lo `test -f 'ipm_core.c' || echo './'`ipm_core.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_core.c  -fPIC -DPIC -o .libs/libipm_la-ipm_core.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_core.c -o libipm_la-ipm_core.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-ipm_env.lo `test -f 'ipm_env.c' || echo './'`ipm_env.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_env.c  -fPIC -DPIC -o .libs/libipm_la-ipm_env.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_env.c -o libipm_la-ipm_env.o >/dev/null 2>&1
+../bin/make_wrappers -funderscore_post  ../etc/ipm_key_mpi
+Generating GEN.wrapper_mpi.c
+Generating GEN.wrapper_mpif.c
+Generating GEN.fproto.mpi.h
+Generating GEN.calltable_mpi.h
+Generating GEN.calltable_mpi.c
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-ipm_time.lo `test -f 'ipm_time.c' || echo './'`ipm_time.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_time.c  -fPIC -DPIC -o .libs/libipm_la-ipm_time.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_time.c -o libipm_la-ipm_time.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-ipm_modules.lo `test -f 'ipm_modules.c' || echo './'`ipm_modules.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_modules.c  -fPIC -DPIC -o .libs/libipm_la-ipm_modules.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_modules.c -o libipm_la-ipm_modules.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-jobdata.lo `test -f 'jobdata.c' || echo './'`jobdata.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c jobdata.c  -fPIC -DPIC -o .libs/libipm_la-jobdata.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c jobdata.c -o libipm_la-jobdata.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-md5.lo `test -f 'md5.c' || echo './'`md5.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c md5.c  -fPIC -DPIC -o .libs/libipm_la-md5.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c md5.c -o libipm_la-md5.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-memusage.lo `test -f 'memusage.c' || echo './'`memusage.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c memusage.c  -fPIC -DPIC -o .libs/libipm_la-memusage.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c memusage.c -o libipm_la-memusage.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-perfdata.lo `test -f 'perfdata.c' || echo './'`perfdata.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c perfdata.c  -fPIC -DPIC -o .libs/libipm_la-perfdata.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c perfdata.c -o libipm_la-perfdata.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-regstack.lo `test -f 'regstack.c' || echo './'`regstack.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c regstack.c  -fPIC -DPIC -o .libs/libipm_la-regstack.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c regstack.c -o libipm_la-regstack.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-report.lo `test -f 'report.c' || echo './'`report.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c report.c  -fPIC -DPIC -o .libs/libipm_la-report.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c report.c -o libipm_la-report.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-report_banner.lo `test -f 'report_banner.c' || echo './'`report_banner.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c report_banner.c  -fPIC -DPIC -o .libs/libipm_la-report_banner.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c report_banner.c -o libipm_la-report_banner.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-report_xml.lo `test -f 'report_xml.c' || echo './'`report_xml.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c report_xml.c  -fPIC -DPIC -o .libs/libipm_la-report_xml.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c report_xml.c -o libipm_la-report_xml.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-ipm_introspect.lo `test -f 'ipm_introspect.c' || echo './'`ipm_introspect.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_introspect.c  -fPIC -DPIC -o .libs/libipm_la-ipm_introspect.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c ipm_introspect.c -o libipm_la-ipm_introspect.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-mod_mpi.lo `test -f 'mod_mpi.c' || echo './'`mod_mpi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mod_mpi.c  -fPIC -DPIC -o .libs/libipm_la-mod_mpi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mod_mpi.c -o libipm_la-mod_mpi.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-mpi_init.lo `test -f 'mpi_init.c' || echo './'`mpi_init.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_init.c  -fPIC -DPIC -o .libs/libipm_la-mpi_init.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_init.c -o libipm_la-mpi_init.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-mpi_finalize.lo `test -f 'mpi_finalize.c' || echo './'`mpi_finalize.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_finalize.c  -fPIC -DPIC -o .libs/libipm_la-mpi_finalize.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_finalize.c -o libipm_la-mpi_finalize.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-mpi_pcontrol.lo `test -f 'mpi_pcontrol.c' || echo './'`mpi_pcontrol.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_pcontrol.c  -fPIC -DPIC -o .libs/libipm_la-mpi_pcontrol.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_pcontrol.c -o libipm_la-mpi_pcontrol.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-machtopo.lo `test -f 'machtopo.c' || echo './'`machtopo.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c machtopo.c  -fPIC -DPIC -o .libs/libipm_la-machtopo.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c machtopo.c -o libipm_la-machtopo.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-mod_papi.lo `test -f 'mod_papi.c' || echo './'`mod_papi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mod_papi.c  -fPIC -DPIC -o .libs/libipm_la-mod_papi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mod_papi.c -o libipm_la-mod_papi.o >/dev/null 2>&1
+../bin/make_wrappers -funderscore_post  ../etc/ipm_key_mpi
+Generating GEN.wrapper_mpi.c
+Generating GEN.wrapper_mpif.c
+Generating GEN.fproto.mpi.h
+Generating GEN.calltable_mpi.h
+Generating GEN.calltable_mpi.c
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-GEN.wrapper_mpi.lo `test -f 'GEN.wrapper_mpi.c' || echo './'`GEN.wrapper_mpi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpi.c  -fPIC -DPIC -o .libs/libipm_la-GEN.wrapper_mpi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpi.c -o libipm_la-GEN.wrapper_mpi.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-GEN.calltable_mpi.lo `test -f 'GEN.calltable_mpi.c' || echo './'`GEN.calltable_mpi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.calltable_mpi.c  -fPIC -DPIC -o .libs/libipm_la-GEN.calltable_mpi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.calltable_mpi.c -o libipm_la-GEN.calltable_mpi.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=link mpicc -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX   -o libipm.la -rpath /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib libipm_la-calltable.lo libipm_la-hashkey.lo libipm_la-hashtable.lo libipm_la-ipm_core.lo libipm_la-ipm_env.lo libipm_la-ipm_time.lo libipm_la-ipm_modules.lo libipm_la-jobdata.lo libipm_la-md5.lo libipm_la-memusage.lo libipm_la-perfdata.lo libipm_la-regstack.lo libipm_la-report.lo libipm_la-report_banner.lo libipm_la-report_xml.lo libipm_la-ipm_introspect.lo libipm_la-mod_mpi.lo libipm_la-mpi_init.lo libipm_la-mpi_finalize.lo libipm_la-mpi_pcontrol.lo libipm_la-machtopo.lo     libipm_la-mod_papi.lo         libipm_la-GEN.wrapper_mpi.lo libipm_la-GEN.calltable_mpi.lo            -lpapi
+libtool: link: mpicc -shared  -fPIC -DPIC  .libs/libipm_la-calltable.o .libs/libipm_la-hashkey.o .libs/libipm_la-hashtable.o .libs/libipm_la-ipm_core.o .libs/libipm_la-ipm_env.o .libs/libipm_la-ipm_time.o .libs/libipm_la-ipm_modules.o .libs/libipm_la-jobdata.o .libs/libipm_la-md5.o .libs/libipm_la-memusage.o .libs/libipm_la-perfdata.o .libs/libipm_la-regstack.o .libs/libipm_la-report.o .libs/libipm_la-report_banner.o .libs/libipm_la-report_xml.o .libs/libipm_la-ipm_introspect.o .libs/libipm_la-mod_mpi.o .libs/libipm_la-mpi_init.o .libs/libipm_la-mpi_finalize.o .libs/libipm_la-mpi_pcontrol.o .libs/libipm_la-machtopo.o .libs/libipm_la-mod_papi.o .libs/libipm_la-GEN.wrapper_mpi.o .libs/libipm_la-GEN.calltable_mpi.o   -lpapi  -O2   -Wl,-soname -Wl,libipm.so.0 -o .libs/libipm.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libipm.so.0" && ln -s "libipm.so.0.0.0" "libipm.so.0")
+libtool: link: (cd ".libs" && rm -f "libipm.so" && ln -s "libipm.so.0.0.0" "libipm.so")
+libtool: link: ar cru .libs/libipm.a  libipm_la-calltable.o libipm_la-hashkey.o libipm_la-hashtable.o libipm_la-ipm_core.o libipm_la-ipm_env.o libipm_la-ipm_time.o libipm_la-ipm_modules.o libipm_la-jobdata.o libipm_la-md5.o libipm_la-memusage.o libipm_la-perfdata.o libipm_la-regstack.o libipm_la-report.o libipm_la-report_banner.o libipm_la-report_xml.o libipm_la-ipm_introspect.o libipm_la-mod_mpi.o libipm_la-mpi_init.o libipm_la-mpi_finalize.o libipm_la-mpi_pcontrol.o libipm_la-machtopo.o libipm_la-mod_papi.o libipm_la-GEN.wrapper_mpi.o libipm_la-GEN.calltable_mpi.o
+libtool: link: ranlib .libs/libipm.a
+libtool: link: ( cd ".libs" && rm -f "libipm.la" && ln -s "../libipm.la" "libipm.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipmf_la-mpi_fortran.lo `test -f 'mpi_fortran.c' || echo './'`mpi_fortran.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_fortran.c  -fPIC -DPIC -o .libs/libipmf_la-mpi_fortran.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c mpi_fortran.c -o libipmf_la-mpi_fortran.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipmf_la-GEN.wrapper_mpif.lo `test -f 'GEN.wrapper_mpif.c' || echo './'`GEN.wrapper_mpif.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpif.c  -fPIC -DPIC -o .libs/libipmf_la-GEN.wrapper_mpif.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpif.c -o libipmf_la-GEN.wrapper_mpif.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=FC   --mode=link mpif90  -g -O2   -o libipmf.la -rpath /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib libipmf_la-mpi_fortran.lo libipmf_la-GEN.wrapper_mpif.lo  -lpapi
+libtool: link: mpif90 -shared  -fPIC  .libs/libipmf_la-mpi_fortran.o .libs/libipmf_la-GEN.wrapper_mpif.o   -Wl,-rpath -Wl,/storage/software/gcc/4.8.1/lib/../lib64 -Wl,-rpath -Wl,/storage/software/gcc/4.8.1/lib/../lib64 -lpapi -L/storage/software/intel_parallel_studio_xe_2015//impi/5.0.1.035/intel64/lib/debug -L/storage/software/intel_parallel_studio_xe_2015//impi/5.0.1.035/intel64/lib -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/gpfs/hpchome/hesti/profilingexamples/papi/install/lib -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/compiler/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/ipp/../compiler/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/ipp/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/mkl/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/tbb/lib/intel64/gcc4.4 -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. -lmpifort -lmpi -lmpigi -ldl -lrt -lpthread /storage/software/gcc/4.8.1/lib/../lib64/libgfortran.so -L/storage/software/gcc/4.8.1/lib/../lib64 /storage/software/gcc/4.8.1/lib/../lib64/libquadmath.so -lm -lc -lgcc_s  -O2   -Wl,-soname -Wl,libipmf.so.0 -o .libs/libipmf.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libipmf.so.0" && ln -s "libipmf.so.0.0.0" "libipmf.so.0")
+libtool: link: (cd ".libs" && rm -f "libipmf.so" && ln -s "libipmf.so.0.0.0" "libipmf.so")
+libtool: link: ar cru .libs/libipmf.a  libipmf_la-mpi_fortran.o libipmf_la-GEN.wrapper_mpif.o
+libtool: link: ranlib .libs/libipmf.a
+libtool: link: ( cd ".libs" && rm -f "libipmf.la" && ln -s "../libipmf.la" "libipmf.la" )
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+Making all in bin
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/bin'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/bin'
+Making all in etc
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/etc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/etc'
+Making all in utils
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/utils'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/utils'
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM'
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM'
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM'
+Making install in src
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+../bin/make_wrappers -funderscore_post  ../etc/ipm_key_mpi
+Generating GEN.wrapper_mpi.c
+Generating GEN.wrapper_mpif.c
+Generating GEN.fproto.mpi.h
+Generating GEN.calltable_mpi.h
+Generating GEN.calltable_mpi.c
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-GEN.wrapper_mpi.lo `test -f 'GEN.wrapper_mpi.c' || echo './'`GEN.wrapper_mpi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpi.c  -fPIC -DPIC -o .libs/libipm_la-GEN.wrapper_mpi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpi.c -o libipm_la-GEN.wrapper_mpi.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=link mpicc -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX   -o libipm.la -rpath /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib libipm_la-calltable.lo libipm_la-hashkey.lo libipm_la-hashtable.lo libipm_la-ipm_core.lo libipm_la-ipm_env.lo libipm_la-ipm_time.lo libipm_la-ipm_modules.lo libipm_la-jobdata.lo libipm_la-md5.lo libipm_la-memusage.lo libipm_la-perfdata.lo libipm_la-regstack.lo libipm_la-report.lo libipm_la-report_banner.lo libipm_la-report_xml.lo libipm_la-ipm_introspect.lo libipm_la-mod_mpi.lo libipm_la-mpi_init.lo libipm_la-mpi_finalize.lo libipm_la-mpi_pcontrol.lo libipm_la-machtopo.lo     libipm_la-mod_papi.lo         libipm_la-GEN.wrapper_mpi.lo libipm_la-GEN.calltable_mpi.lo            -lpapi
+libtool: link: rm -fr  .libs/libipm.a .libs/libipm.la .libs/libipm.lai .libs/libipm.so .libs/libipm.so.0
+libtool: link: mpicc -shared  -fPIC -DPIC  .libs/libipm_la-calltable.o .libs/libipm_la-hashkey.o .libs/libipm_la-hashtable.o .libs/libipm_la-ipm_core.o .libs/libipm_la-ipm_env.o .libs/libipm_la-ipm_time.o .libs/libipm_la-ipm_modules.o .libs/libipm_la-jobdata.o .libs/libipm_la-md5.o .libs/libipm_la-memusage.o .libs/libipm_la-perfdata.o .libs/libipm_la-regstack.o .libs/libipm_la-report.o .libs/libipm_la-report_banner.o .libs/libipm_la-report_xml.o .libs/libipm_la-ipm_introspect.o .libs/libipm_la-mod_mpi.o .libs/libipm_la-mpi_init.o .libs/libipm_la-mpi_finalize.o .libs/libipm_la-mpi_pcontrol.o .libs/libipm_la-machtopo.o .libs/libipm_la-mod_papi.o .libs/libipm_la-GEN.wrapper_mpi.o .libs/libipm_la-GEN.calltable_mpi.o   -lpapi  -O2   -Wl,-soname -Wl,libipm.so.0 -o .libs/libipm.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libipm.so.0" && ln -s "libipm.so.0.0.0" "libipm.so.0")
+libtool: link: (cd ".libs" && rm -f "libipm.so" && ln -s "libipm.so.0.0.0" "libipm.so")
+libtool: link: ar cru .libs/libipm.a  libipm_la-calltable.o libipm_la-hashkey.o libipm_la-hashtable.o libipm_la-ipm_core.o libipm_la-ipm_env.o libipm_la-ipm_time.o libipm_la-ipm_modules.o libipm_la-jobdata.o libipm_la-md5.o libipm_la-memusage.o libipm_la-perfdata.o libipm_la-regstack.o libipm_la-report.o libipm_la-report_banner.o libipm_la-report_xml.o libipm_la-ipm_introspect.o libipm_la-mod_mpi.o libipm_la-mpi_init.o libipm_la-mpi_finalize.o libipm_la-mpi_pcontrol.o libipm_la-machtopo.o libipm_la-mod_papi.o libipm_la-GEN.wrapper_mpi.o libipm_la-GEN.calltable_mpi.o
+libtool: link: ranlib .libs/libipm.a
+libtool: link: ( cd ".libs" && rm -f "libipm.la" && ln -s "../libipm.la" "libipm.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipmf_la-GEN.wrapper_mpif.lo `test -f 'GEN.wrapper_mpif.c' || echo './'`GEN.wrapper_mpif.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpif.c  -fPIC -DPIC -o .libs/libipmf_la-GEN.wrapper_mpif.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpif.c -o libipmf_la-GEN.wrapper_mpif.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=FC   --mode=link mpif90  -g -O2   -o libipmf.la -rpath /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib libipmf_la-mpi_fortran.lo libipmf_la-GEN.wrapper_mpif.lo  -lpapi
+libtool: link: rm -fr  .libs/libipmf.a .libs/libipmf.la .libs/libipmf.lai .libs/libipmf.so .libs/libipmf.so.0
+libtool: link: mpif90 -shared  -fPIC  .libs/libipmf_la-mpi_fortran.o .libs/libipmf_la-GEN.wrapper_mpif.o   -Wl,-rpath -Wl,/storage/software/gcc/4.8.1/lib/../lib64 -Wl,-rpath -Wl,/storage/software/gcc/4.8.1/lib/../lib64 -lpapi -L/storage/software/intel_parallel_studio_xe_2015//impi/5.0.1.035/intel64/lib/debug -L/storage/software/intel_parallel_studio_xe_2015//impi/5.0.1.035/intel64/lib -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/gpfs/hpchome/hesti/profilingexamples/papi/install/lib -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/compiler/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/ipp/../compiler/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/ipp/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/mkl/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/tbb/lib/intel64/gcc4.4 -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. -lmpifort -lmpi -lmpigi -ldl -lrt -lpthread /storage/software/gcc/4.8.1/lib/../lib64/libgfortran.so -L/storage/software/gcc/4.8.1/lib/../lib64 /storage/software/gcc/4.8.1/lib/../lib64/libquadmath.so -lm -lc -lgcc_s  -O2   -Wl,-soname -Wl,libipmf.so.0 -o .libs/libipmf.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libipmf.so.0" && ln -s "libipmf.so.0.0.0" "libipmf.so.0")
+libtool: link: (cd ".libs" && rm -f "libipmf.so" && ln -s "libipmf.so.0.0.0" "libipmf.so")
+libtool: link: ar cru .libs/libipmf.a  libipmf_la-mpi_fortran.o libipmf_la-GEN.wrapper_mpif.o
+libtool: link: ranlib .libs/libipmf.a
+libtool: link: ( cd ".libs" && rm -f "libipmf.la" && ln -s "../libipmf.la" "libipmf.la" )
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+../bin/make_wrappers -funderscore_post  ../etc/ipm_key_mpi
+Generating GEN.wrapper_mpi.c
+Generating GEN.wrapper_mpif.c
+Generating GEN.fproto.mpi.h
+Generating GEN.calltable_mpi.h
+Generating GEN.calltable_mpi.c
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-GEN.wrapper_mpi.lo `test -f 'GEN.wrapper_mpi.c' || echo './'`GEN.wrapper_mpi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpi.c  -fPIC -DPIC -o .libs/libipm_la-GEN.wrapper_mpi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpi.c -o libipm_la-GEN.wrapper_mpi.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipm_la-GEN.calltable_mpi.lo `test -f 'GEN.calltable_mpi.c' || echo './'`GEN.calltable_mpi.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.calltable_mpi.c  -fPIC -DPIC -o .libs/libipm_la-GEN.calltable_mpi.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.calltable_mpi.c -o libipm_la-GEN.calltable_mpi.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=link mpicc -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX   -o libipm.la -rpath /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib libipm_la-calltable.lo libipm_la-hashkey.lo libipm_la-hashtable.lo libipm_la-ipm_core.lo libipm_la-ipm_env.lo libipm_la-ipm_time.lo libipm_la-ipm_modules.lo libipm_la-jobdata.lo libipm_la-md5.lo libipm_la-memusage.lo libipm_la-perfdata.lo libipm_la-regstack.lo libipm_la-report.lo libipm_la-report_banner.lo libipm_la-report_xml.lo libipm_la-ipm_introspect.lo libipm_la-mod_mpi.lo libipm_la-mpi_init.lo libipm_la-mpi_finalize.lo libipm_la-mpi_pcontrol.lo libipm_la-machtopo.lo     libipm_la-mod_papi.lo         libipm_la-GEN.wrapper_mpi.lo libipm_la-GEN.calltable_mpi.lo            -lpapi
+libtool: link: rm -fr  .libs/libipm.a .libs/libipm.la .libs/libipm.lai .libs/libipm.so .libs/libipm.so.0
+libtool: link: mpicc -shared  -fPIC -DPIC  .libs/libipm_la-calltable.o .libs/libipm_la-hashkey.o .libs/libipm_la-hashtable.o .libs/libipm_la-ipm_core.o .libs/libipm_la-ipm_env.o .libs/libipm_la-ipm_time.o .libs/libipm_la-ipm_modules.o .libs/libipm_la-jobdata.o .libs/libipm_la-md5.o .libs/libipm_la-memusage.o .libs/libipm_la-perfdata.o .libs/libipm_la-regstack.o .libs/libipm_la-report.o .libs/libipm_la-report_banner.o .libs/libipm_la-report_xml.o .libs/libipm_la-ipm_introspect.o .libs/libipm_la-mod_mpi.o .libs/libipm_la-mpi_init.o .libs/libipm_la-mpi_finalize.o .libs/libipm_la-mpi_pcontrol.o .libs/libipm_la-machtopo.o .libs/libipm_la-mod_papi.o .libs/libipm_la-GEN.wrapper_mpi.o .libs/libipm_la-GEN.calltable_mpi.o   -lpapi  -O2   -Wl,-soname -Wl,libipm.so.0 -o .libs/libipm.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libipm.so.0" && ln -s "libipm.so.0.0.0" "libipm.so.0")
+libtool: link: (cd ".libs" && rm -f "libipm.so" && ln -s "libipm.so.0.0.0" "libipm.so")
+libtool: link: ar cru .libs/libipm.a  libipm_la-calltable.o libipm_la-hashkey.o libipm_la-hashtable.o libipm_la-ipm_core.o libipm_la-ipm_env.o libipm_la-ipm_time.o libipm_la-ipm_modules.o libipm_la-jobdata.o libipm_la-md5.o libipm_la-memusage.o libipm_la-perfdata.o libipm_la-regstack.o libipm_la-report.o libipm_la-report_banner.o libipm_la-report_xml.o libipm_la-ipm_introspect.o libipm_la-mod_mpi.o libipm_la-mpi_init.o libipm_la-mpi_finalize.o libipm_la-mpi_pcontrol.o libipm_la-machtopo.o libipm_la-mod_papi.o libipm_la-GEN.wrapper_mpi.o libipm_la-GEN.calltable_mpi.o
+libtool: link: ranlib .libs/libipm.a
+libtool: link: ( cd ".libs" && rm -f "libipm.la" && ln -s "../libipm.la" "libipm.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile mpicc -DHAVE_CONFIG_H -I. -I..  -I../include  -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI     -DHAVE_PAPI         -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c -o libipmf_la-GEN.wrapper_mpif.lo `test -f 'GEN.wrapper_mpif.c' || echo './'`GEN.wrapper_mpif.c
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpif.c  -fPIC -DPIC -o .libs/libipmf_la-GEN.wrapper_mpif.o
+libtool: compile:  mpicc -DHAVE_CONFIG_H -I. -I.. -I../include -DMPI_STATUS_COUNT=count_lo -DHAVE_MPI -DHAVE_PAPI -g -O2 -DHAVE_DYNLOAD -I/gpfs/hpchome/hesti/profilingexamples/papi/install/include -DOS_LINUX -c GEN.wrapper_mpif.c -o libipmf_la-GEN.wrapper_mpif.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=FC   --mode=link mpif90  -g -O2   -o libipmf.la -rpath /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib libipmf_la-mpi_fortran.lo libipmf_la-GEN.wrapper_mpif.lo  -lpapi
+libtool: link: rm -fr  .libs/libipmf.a .libs/libipmf.la .libs/libipmf.lai .libs/libipmf.so .libs/libipmf.so.0
+libtool: link: mpif90 -shared  -fPIC  .libs/libipmf_la-mpi_fortran.o .libs/libipmf_la-GEN.wrapper_mpif.o   -Wl,-rpath -Wl,/storage/software/gcc/4.8.1/lib/../lib64 -Wl,-rpath -Wl,/storage/software/gcc/4.8.1/lib/../lib64 -lpapi -L/storage/software/intel_parallel_studio_xe_2015//impi/5.0.1.035/intel64/lib/debug -L/storage/software/intel_parallel_studio_xe_2015//impi/5.0.1.035/intel64/lib -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1 -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/gpfs/hpchome/hesti/profilingexamples/papi/install/lib -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/compiler/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/ipp/../compiler/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/ipp/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/mkl/lib/intel64 -L/storage/software/intel_parallel_studio_xe_2015/composer_xe_2015.0.090/tbb/lib/intel64/gcc4.4 -L/storage/software/gcc/4.8.1/lib/gcc/x86_64-unknown-linux-gnu/4.8.1/../../.. -lmpifort -lmpi -lmpigi -ldl -lrt -lpthread /storage/software/gcc/4.8.1/lib/../lib64/libgfortran.so -L/storage/software/gcc/4.8.1/lib/../lib64 /storage/software/gcc/4.8.1/lib/../lib64/libquadmath.so -lm -lc -lgcc_s  -O2   -Wl,-soname -Wl,libipmf.so.0 -o .libs/libipmf.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libipmf.so.0" && ln -s "libipmf.so.0.0.0" "libipmf.so.0")
+libtool: link: (cd ".libs" && rm -f "libipmf.so" && ln -s "libipmf.so.0.0.0" "libipmf.so")
+libtool: link: ar cru .libs/libipmf.a  libipmf_la-mpi_fortran.o libipmf_la-GEN.wrapper_mpif.o
+libtool: link: ranlib .libs/libipmf.a
+libtool: link: ( cd ".libs" && rm -f "libipmf.la" && ln -s "../libipmf.la" "libipmf.la" )
+ /usr/bin/mkdir -p '/gpfs/hpchome/hesti/profilingexamples/ipm/install/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libipm.la libipmf.la '/gpfs/hpchome/hesti/profilingexamples/ipm/install/lib'
+libtool: install: /usr/bin/install -c .libs/libipm.so.0.0.0 /gpfs/hpchome/hesti/profilingexamples/ipm/install/lib/libipm.so.0.0.0
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/ipm/IPM/src'
+2decomp_fft/
+2decomp_fft/README
+2decomp_fft/lib/
+2decomp_fft/lib/Makefile
+2decomp_fft/examples/
+2decomp_fft/examples/halo_test/
+2decomp_fft/examples/halo_test/README
+2decomp_fft/examples/halo_test/Makefile
+2decomp_fft/examples/halo_test/halo_test.f90
+2decomp_fft/examples/fft_test_c2c/
+2decomp_fft/examples/fft_test_c2c/README
+2decomp_fft/examples/fft_test_c2c/Makefile
+2decomp_fft/examples/fft_test_c2c/fft_test_c2c.f90
+2decomp_fft/examples/fft_test_c2c/c06fxfe.r
+2decomp_fft/examples/ga_test/
+2decomp_fft/examples/ga_test/ga_test.f90
+2decomp_fft/examples/ga_test/README
+2decomp_fft/examples/ga_test/Makefile
+2decomp_fft/examples/io_test/
+2decomp_fft/examples/io_test/io_read.f90
+2decomp_fft/examples/io_test/io_test.f90
+2decomp_fft/examples/io_test/io_bench.f90
+2decomp_fft/examples/io_test/io_plane_test.f90
+2decomp_fft/examples/io_test/Makefile
+2decomp_fft/examples/io_test/io_var_test.f90
+2decomp_fft/examples/non_blocking/
+2decomp_fft/examples/non_blocking/README
+2decomp_fft/examples/non_blocking/non_blocking.f90
+2decomp_fft/examples/non_blocking/Makefile
+2decomp_fft/examples/non_blocking/blocking.f90
+2decomp_fft/examples/test2d/
+2decomp_fft/examples/test2d/README
+2decomp_fft/examples/test2d/test2d.f90
+2decomp_fft/examples/test2d/Makefile
+2decomp_fft/examples/timing/
+2decomp_fft/examples/timing/README
+2decomp_fft/examples/timing/timing.f90
+2decomp_fft/examples/timing/Makefile
+2decomp_fft/examples/Makefile
+2decomp_fft/examples/fft_test_r2c/
+2decomp_fft/examples/fft_test_r2c/README
+2decomp_fft/examples/fft_test_r2c/Makefile
+2decomp_fft/examples/fft_test_r2c/fft_test_r2c.f90
+2decomp_fft/examples/p3dfft/
+2decomp_fft/examples/p3dfft/README
+2decomp_fft/examples/p3dfft/Makefile
+2decomp_fft/examples/p3dfft/p3dfft.f90
+2decomp_fft/examples/README.examples
+2decomp_fft/examples/tecplot_view/
+2decomp_fft/examples/tecplot_view/README
+2decomp_fft/examples/tecplot_view/tecplot_view.f90
+2decomp_fft/examples/tecplot_view/Makefile
+2decomp_fft/examples/tecplot_view/2decomp_decomp.png
+2decomp_fft/doc/
+2decomp_fft/doc/DOC_2DECOMP_FFT.html
+2decomp_fft/include/
+2decomp_fft/Makefile
+2decomp_fft/src/
+2decomp_fft/src/fft_ffte.f90
+2decomp_fft/src/io_read_var.f90
+2decomp_fft/src/fft_mkl.f90
+2decomp_fft/src/fft_common.f90
+2decomp_fft/src/halo_common.f90
+2decomp_fft/src/fft_essl.f90
+2decomp_fft/src/transpose_x_to_y.f90
+2decomp_fft/src/io_write_every.f90
+2decomp_fft/src/io_write_plane.f90
+2decomp_fft/src/io_write_one.f90
+2decomp_fft/src/decomp_2d.f90
+2decomp_fft/src/transpose_y_to_z.f90
+2decomp_fft/src/fft_acml.f90
+2decomp_fft/src/fft_common_3d.f90
+2decomp_fft/src/alloc_shm.c
+2decomp_fft/src/transpose_y_to_x.f90
+2decomp_fft/src/halo.f90
+2decomp_fft/src/Makefile.inc.BlueGene
+2decomp_fft/src/alloc.f90
+2decomp_fft/src/fft_fftw3.f90
+2decomp_fft/src/Makefile.inc.Fujitsu_SPARC64_VIIIfx
+2decomp_fft/src/factor.f90
+2decomp_fft/src/fft_fftpack5.f90
+2decomp_fft/src/io_write_var.f90
+2decomp_fft/src/io_read_one.f90
+2decomp_fft/src/acml_plan.f90
+2decomp_fft/src/Makefile.inc.Cray_XE
+2decomp_fft/src/fft_fftw3_f03.f90
+2decomp_fft/src/transpose_z_to_y.f90
+2decomp_fft/src/glassman.f90
+2decomp_fft/src/fft_generic.f90
+2decomp_fft/src/io.f90
+2decomp_fft/src/Makefile.inc.x86
+2decomp_fft/src/Makefile
+2decomp_fft/examples/io_test/README
+2decomp_fft/examples/io_test/run_test.sh
+cd lib; make lib
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/lib'
+cd ../src ; make lib
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/src'
+ar qc lib2decomp_fft.a decomp_2d.o io.o glassman.o fft_generic.o
+mv *.mod ../include
+mv lib2decomp_fft.a ../lib
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/src'
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/lib'
+cd examples ; make examples
+make[1]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples'
+cd test2d; make test2d
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/test2d'
+make[2]: `test2d' is up to date.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/test2d'
+cd fft_test_c2c; make fft_test_c2c
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/fft_test_c2c'
+make[2]: `fft_test_c2c' is up to date.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/fft_test_c2c'
+cd fft_test_r2c; make fft_test_r2c
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/fft_test_r2c'
+make[2]: `fft_test_r2c' is up to date.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/fft_test_r2c'
+cd timing; make timing
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/timing'
+mpif90 -o timing timing.o -L../../lib -l2decomp_fft 
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/timing'
+cd halo_test; make halo_test
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/halo_test'
+make[2]: `halo_test' is up to date.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/halo_test'
+cd io_test; make io_test
+make[2]: Entering directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/io_test'
+make[2]: `io_test' is up to date.
+make[2]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples/io_test'
+Built the examples
+make[1]: Leaving directory `/gpfs/hpchome/hesti/profilingexamples/example/2decomp_fft/examples'
+Basic Test target is examples
+mpif90 -I../../include -DDOUBLE_PREC -O3 -fcray-pointer -cpp  -c timing.f90
+mpif90 -o timing timing.o -L../../lib -l2decomp_fft 
+ In auto-tuning mode......
+ factors:            1           2           4           8          16          32
+ processor grid           1  by           32  time=  0.73264840990304947     
+ processor grid           2  by           16  time=  0.51621654629707336     
+ processor grid           4  by            8  time=  0.50293852388858795     
+ processor grid           8  by            4  time=  0.53141742944717407     
+ processor grid          16  by            2  time=  0.54624173045158386     
+ processor grid          32  by            1  time=  0.55742763727903366     
+ the best processor grid is probably            4  by            8
+  
+ ***** Using the generic FFT engine *****
+  
+ ===== c2c interface =====
+ error / mesh point:    3.4155996174514931E-014
+ time (sec):    14.283580042421818        13.525769755244255     
+ GFLOPS :    13.031152049100170     
+  
+ ***** Using the generic FFT engine *****
+  
+ ===== r2c/c2r interface =====
+ error / mesh point:    2.0416774371430654E-014
+ time (sec):    7.5291166454553604        9.2693111672997475     
+rm -f *.o timing
+mpif90 -I../../include -DDOUBLE_PREC -O3 -fcray-pointer -cpp  -c timing.f90
+mpif90 -o timing timing.o -L/gpfs/hpchome/hesti/profilingexamples/ipm/install/lib/ -lipm -L../../lib -l2decomp_fft 
